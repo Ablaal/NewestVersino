@@ -1,0 +1,1287 @@
+{
+  "schoolName": "Ablaal Schools",
+  "schoolNameSo": "Dugsiyada Ablaal",
+  "tagline": "Nurturing Excellence, Building Futures",
+  "taglineSo": "Kobcinta Waxsanaanta, Dhismaya Mustaqbalka",
+  "logo": "/images/logo.png",
+  "contact": {
+    "phone": "+252 612 461 112",
+    "phoneSecondary": "+252 612 461 112",
+    "email": "info@ablaalschools.so",
+    "chairmanEmail": "abdiraxmaan.mcalim@gmail.com",
+    "whatsapp": "+252 612 461 112",
+    "address": "Taleh Street, Hodan District, Mogadishu, Somalia",
+    "addressSo": "Waddada Taleh, Degmada Hodan, Muqdisho, Soomaaliya",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255281.1989186852!2d45.20901400000001!3d2.046821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d58425955ce6b53%3A0xbb20eaaa52cc59d9!2sMogadishu%2C%20Somalia!5e0!3m2!1sen!2s!4v1704067200000!5m2!1sen!2s",
+    "hero": {
+      "title": "Contact Us",
+      "titleSo": "Nala Soo Xiriir",
+      "subtitle": "Get in touch with us – we're here to help",
+      "subtitleSo": "Nala soo xiriir – waxaan halkan u joognaa inaan kaa caawino",
+      "backgroundImage": "/images/contact-hero.jpg"
+    }
+  },
+  "social": {
+    "facebook": "https://facebook.com/ablaalschools",
+    "twitter": "https://twitter.com/ablaalschools",
+    "instagram": "https://instagram.com/ablaalschools",
+    "linkedin": "https://linkedin.com/company/ablaalschools"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "labelSo": "Bogga Hore",
+      "href": "/"
+    },
+    {
+      "label": "About Us",
+      "labelSo": "Nagu Saabsan",
+      "href": "/about",
+      "children": [
+        {
+          "label": "Our Leaders",
+          "labelSo": "Hogaamiyeyaasha",
+          "href": "/about/leaders"
+        },
+        {
+          "label": "Mission & Vision",
+          "labelSo": "Ujeeddo & Aragti",
+          "href": "/about/mission-vision"
+        },
+        {
+          "label": "Services & Facilities",
+          "labelSo": "Adeegyada & Xarumaha",
+          "href": "/about/facilities"
+        },
+        {
+          "label": "Gallery",
+          "labelSo": "Sawirada",
+          "href": "/about/gallery"
+        },
+        {
+          "label": "Branches",
+          "labelSo": "Laamaha",
+          "href": "/about/branches"
+        }
+      ]
+    },
+    {
+      "label": "Academic",
+      "labelSo": "Waxbarasho",
+      "href": "/academics",
+      "children": [
+        {
+          "label": "Primary School",
+          "labelSo": "Dugsiga Hoose",
+          "href": "/academics/primary"
+        },
+        {
+          "label": "Secondary School",
+          "labelSo": "Dugsiga Dhexe",
+          "href": "/academics/secondary"
+        }
+      ]
+    },
+    {
+      "label": "Admissions",
+      "labelSo": "Gelitaanka",
+      "href": "/admissions",
+      "children": [
+        {
+          "label": "Admission Info",
+          "labelSo": "Xogta Gelitaanka",
+          "href": "/admissions/info"
+        },
+        {
+          "label": "Application Process",
+          "labelSo": "Habka Codsiga",
+          "href": "/admissions/process"
+        },
+        {
+          "label": "Scholarships",
+          "labelSo": "Deeqaha Waxbarasho",
+          "href": "/admissions/scholarships"
+        },
+        {
+          "label": "School Fees",
+          "labelSo": "Kharashka Dugsiga",
+          "href": "/admissions/fees"
+        },
+        {
+          "label": "Apply Now",
+          "labelSo": "Codso Hadda",
+          "href": "/admissions/apply"
+        }
+      ]
+    },
+    {
+      "label": "News & Events",
+      "labelSo": "Wararka & Dhacdooyinka",
+      "href": "/news-events"
+    },
+    {
+      "label": "Our Community",
+      "labelSo": "Bulshadeena",
+      "href": "/community",
+      "children": [
+        {
+          "label": "Our Students",
+          "labelSo": "Ardaydeena",
+          "href": "/community/students"
+        },
+        {
+          "label": "Our Staff",
+          "labelSo": "Shaqaalaha",
+          "href": "/community/staff"
+        },
+        {
+          "label": "Our Alumni",
+          "labelSo": "Ardaydii Hore",
+          "href": "/community/alumni"
+        }
+      ]
+    },
+    {
+      "label": "Contact Us",
+      "labelSo": "Nala Soo Xiriir",
+      "href": "/contact"
+    }
+  ],
+  "home": {
+    "hero": {
+      "title": "Welcome to Ablaal Schools",
+      "titleSo": "Ku soo dhawoow Dugsiyada Ablaal",
+      "subtitle": "Nurturing Excellence, Building Futures Since 1988. A legacy of quality education in Somalia.",
+      "subtitleSo": "Kobcinta Waxsanaanta, Dhismaya Mustaqbalka tan iyo 1988. Dhaqan waxbarasho tayo leh oo Soomaaliya.",
+      "ctaPrimary": "Enroll Now",
+      "ctaPrimarySo": "Is Diiwaangeli Hadda",
+      "ctaSecondary": "Book a Tour",
+      "ctaSecondarySo": "Ballan Buug Safar",
+      "backgroundVideo": "/videos/ablaalvideo.mp4",
+      "videoPoster": "/images/hero-poster.jpg"
+    },
+    "whyChoose": {
+      "title": "Why Choose Ablaal School",
+      "titleSo": "Maxaad u Dooranaysaa Dugsiga Ablaal",
+      "cards": [
+        {
+          "id": "1",
+          "icon": "GraduationCap",
+          "title": "Developing Well-rounded Learners",
+          "titleSo": "Kobcinta Ardayda Dhammaystiran",
+          "description": "We focus on academic excellence while nurturing character, creativity, and critical thinking skills in every student.",
+          "descriptionSo": "Waxaan diiradda saarnaa waxsanaanta waxbarasho inta aanu kobcinayno dabeecad, hal-abuur, iyo fikirka qoto dheer ee arday kasta.",
+          "image": "/images/100.jpg"
+        },
+        {
+          "id": "2",
+          "icon": "Users",
+          "title": "Experienced Educators",
+          "titleSo": "Barayaal Khibrad Leh",
+          "description": "Our dedicated teachers bring decades of combined experience and passion for shaping young minds.",
+          "descriptionSo": "Barayaashaadeena dhexdhexaadka ah waxay keeneen toban sano oo khibrad isku darka ah oo ay ku leeyihiin habka qalbiga yar yar.",
+          "image": "/images/SP0.jpg"
+        },
+        {
+          "id": "3",
+          "icon": "Building2",
+          "title": "Modern Facilities",
+          "titleSo": "Xarumaha Casriga ah",
+          "description": "State-of-the-art classrooms, science labs, and learning spaces designed for 21st-century education.",
+          "descriptionSo": "Qolal casri ah, laboratoryo sayniseed, iyo meelaha waxbarasho ee loogu talagalay waxbarashada qarniga 21-aad.",
+          "image": "/images/12.jpg"
+        }
+      ]
+    },
+    "discover": {
+      "title": "Discover Ablaal School",
+      "titleSo": "Soo Saar Dugsiga Ablaal",
+      "subtitle": "The Ablaal School Experience",
+      "subtitleSo": "Waayo-aragnimada Dugsiga Ablaal",
+      "description": "For over three decades, Ablaal Schools have been at the forefront of educational excellence in Somalia. Our commitment to nurturing well-rounded individuals has made us a trusted name in education.",
+      "descriptionSo": "Tan iyo saddex sano, Dugsiyada Ablaal waxay ahaayeen hogaanka waxsanaanta waxbarasho ee Soomaaliya. Dhammaanteen waxaan u dhaqannaa dad dhammaystiran oo naga dhigay magac la kalsoonaado oo waxbarasho ah.",
+      "highlights": [
+        {
+          "icon": "MapPin",
+          "title": "Multiple Branches",
+          "titleSo": "Laamo badan",
+          "description": "5 campuses across Mogadishu serving different communities",
+          "descriptionSo": "5 xarumood oo ku yaalla Muqdisho oo u adeega bulshooyin kala duwan"
+        },
+        {
+          "icon": "BookOpen",
+          "title": "Comprehensive Programs",
+          "titleSo": "Barnaamijyada Dhammaystiran",
+          "description": "From primary to secondary, we offer complete educational pathways",
+          "descriptionSo": "Laga bilaabo hoose ilaa dhexe, waxaan bixinaa waddooyin waxbarasho oo buuxda"
+        },
+        {
+          "icon": "Heart",
+          "title": "Student Support",
+          "titleSo": "Taageerada Ardayda",
+          "description": "Counseling, mentoring, and wellbeing services for all students",
+          "descriptionSo": "Talo-bixin, hagid, iyo adeegyada caafimaadka ee ardayda oo dhan"
+        },
+        {
+          "icon": "Globe",
+          "title": "Community Focus",
+          "titleSo": "Diiradda saarista Bulshada",
+          "description": "Building strong relationships with families and communities",
+          "descriptionSo": "Dhismaya xiriiryo adag oo qoysaska iyo bulshooyinka la dhexmarta"
+        }
+      ]
+    },
+    "learningCulture": {
+      "title": "The Ablaal School Learning Culture",
+      "titleSo": "Dhaqanka Waxbarashada ee Dugsiga Ablaal",
+      "subtitle": "Our Winning Formula",
+      "subtitleSo": "Qaacidadeena Guusha",
+      "cards": [
+        {
+          "id": "1",
+          "title": "Academic Excellence",
+          "titleSo": "Waxsanaanta Waxbarasho",
+          "description": "Rigorous curriculum designed to challenge and inspire students to reach their full potential.",
+          "descriptionSo": "Manhaj adag oo loogu talagalay inuu ardayda u caqabado oo uu ka dhigo mid ka mid ah guusha.",
+          "image": "/images/11.jpg"
+        },
+        {
+          "id": "2",
+          "title": "Character Development",
+          "titleSo": "Kobcinta Dabeecadda",
+          "description": "Instilling values of integrity, respect, and responsibility in every student.",
+          "descriptionSo": "Dhiirrigelinta qiimayaasha daacadnimo, ixtiraam, iyo mas'uuliyad ee arday kasta.",
+          "image": "/images/formula-2.jpg"
+        },
+        {
+          "id": "3",
+          "title": "Innovation & Creativity",
+          "titleSo": "Hal-abuur & Hal-abuur",
+          "description": "Encouraging students to think critically and solve problems creatively.",
+          "descriptionSo": "Dhiirrigelinta ardayda inay si qoto dheer u fikiraan oo ay xaliso dhibaatooyin hal-abuureed.",
+          "image": "/images/12.jpg"
+        },
+        {
+          "id": "4",
+          "title": "Global Perspective",
+          "titleSo": "Aragti Caalami ah",
+          "description": "Preparing students to thrive in an interconnected world with cultural awareness.",
+          "descriptionSo": "Ardayda ku diyaarinaya inay ku guuleystaan adduun isku xiran oo murti leh.",
+          "image": "/images/formula-4.jpg"
+        }
+      ]
+    },
+    "curriculum": {
+      "title": "Ablaal School Journey",
+      "titleSo": "Safarka Dugsiga Ablaal",
+      "subtitle": "Discover Our Curriculum",
+      "subtitleSo": "Soo Saar Manhajkeena",
+      "description": "Our comprehensive curriculum is designed to provide students with a strong foundation in core subjects while fostering critical thinking, creativity, and a love for lifelong learning.",
+      "descriptionSo": "Manhajkeena oo dhammaystiran waa inuu ardayda siiyo aasaas xooggan oo mawduucyada aasaasiga ah inta lagu jiro kobcinta fikirka qoto dheer, hal-abuurka, iyo jacaylka waxbarasho nolosha oo dhan."
+    },
+    "testimonials": {
+      "title": "What others think about Ablaal schools",
+      "titleSo": "Waxa ay ku saabsan yihiin dugsiyada Ablaal",
+      "items": [
+        {
+          "id": "1",
+          "name": "Fatima Mohamed",
+          "nameSo": "Faadumo Maxamed",
+          "role": "Parent",
+          "roleSo": "Waalid",
+          "quote": "Ablaal Schools have transformed my children's educational journey. The teachers are dedicated, the facilities are excellent, and my kids love going to school every day.",
+          "quoteSo": "Dugsiyada Ablaal waxay beddeshay safarka waxbarashada carruurtayda. Barayaasha waa dhexdhexaad, xarumaha waa fiican yihiin, carruurtayduna waxay jeceshahay inay aadaan dugsi maalin kasta.",
+          "image": "/images/testimonial-1.jpg"
+        },
+        {
+          "id": "2",
+          "name": "Ahmed Hassan",
+          "nameSo": "Axmed Xasan",
+          "role": "Student",
+          "roleSo": "Arday",
+          "quote": "I've been at Ablaal for 5 years now. The supportive environment and amazing teachers have helped me grow both academically and personally.",
+          "quoteSo": "Waxaan ku jiray Ablaal 5 sano. Deegaanka taageerada iyo barayaasha wanaagsan ayaa i caawiyay inaan koro waxbarasho iyo shaqsiyanba.",
+          "image": "/images/testimonial-2.jpg"
+        },
+        {
+          "id": "3",
+          "name": "Amina Yusuf",
+          "nameSo": "Aamina Yuusuf",
+          "role": "Staff",
+          "roleSo": "Shaqaale",
+          "quote": "Working at Ablaal Schools is more than a job – it's a mission to shape the future of our nation through education. The leadership supports innovation and growth.",
+          "quoteSo": "Ka shaqeynta Dugsiyada Ablaal waa ka badan shaqo – waa ujeeddo in lagu qeexo mustaqbalka dalkayaga waxbarasho. Hogaanka wuxuu taageeraa hal-abuur iyo koboc.",
+          "image": "/images/testimonial-3.jpg"
+        }
+      ]
+    },
+    "news": {
+      "title": "Latest News & Social",
+      "titleSo": "Wararka ugu Dambeeya & Bulshada",
+      "subtitle": "What's Happening at Ablaal Schools",
+      "subtitleSo": "Waxa Dhacaya Dugsiyada Ablaal"
+    },
+    "finalCta": {
+      "title": "Ready to Enroll? Join Us Today",
+      "titleSo": "Diyaar u tahay inaad Is Diiwaangeliso? Noo Biir Maanta",
+      "subtitle": "Give your child the gift of quality education. Applications are now open for the 2025-2026 academic year.",
+      "subtitleSo": "Siiso ilmahaaga hadiyadda waxbarasho tayo leh. Codsiyada hadda waa furan yihiin sanadka waxbarasho 2025-2026.",
+      "cta": "Apply Now",
+      "ctaSo": "Codso Hadda",
+      "backgroundImage": "/images/cta-bg.jpg"
+    }
+  },
+  "about": {
+    "leadership": {
+      "hero": {
+        "title": "Our Leadership Team",
+        "titleSo": "Kooxdeena Hogaanka",
+        "subtitle": "Dedicated visionaries guiding Ablaal Schools toward educational excellence",
+        "subtitleSo": "Kuwa aragti leh oo dhexdhexaad ah oo hogaamiya Dugsiyada Ablaal si loo helo waxsanaan waxbarasho",
+        "backgroundImage": "/images/leadership-hero.jpg"
+      },
+      "founder": {
+        "id": "founder",
+        "name": "Prof. Abdirahman Moalim Ahmed Ablaal",
+        "nameSo": "Prof. Cabdiraxmaan Moalim Axmed Ablaal",
+        "title": "Founder & Chairman",
+        "titleSo": "Aasaasaha & Guddoomiyaha",
+        "bio": "Professor Abdirahman Moalim Ahmed Ablaal founded Ablaal Schools in 1988 with a vision to provide quality education to the children of Somalia. With over 35 years of experience in education, he has been the driving force behind the school's growth and excellence.",
+        "bioSo": "Profesoor Cabdiraxmaan Moalim Axmed Ablaal wuxuu aasaasay Dugsiyada Ablaal sanadkii 1988 si uu u bixiyo waxbarasho tayo leh carruurta Soomaaliya. Waxa uu leeyahay in ka badan 35 sano oo khibrad ah oo waxbarasho ah, wuxuuna ahaa xoogga koboca iyo waxsanaanta dugsiga.",
+        "message": "Education is the foundation upon which we build our future. At Ablaal Schools, we are committed to nurturing the next generation of leaders, thinkers, and change-makers who will shape Somalia's tomorrow.",
+        "messageSo": "Waxbarashadu waa aasaaska aynu ku dhismayno mustaqbalkayaga. Dugsiyada Ablaal, waxaan u dhaqannaa jiilka xigee ee hoggaamiyeyaasha, fikirayaasha, iyo beddelayaasha ee qeexaya berri Soomaaliya.",
+        "image": "/images/founder.jpg",
+        "isFounder": true
+      },
+      "directors": [
+        {
+          "id": "d1",
+          "name": "Dr. Sakariye Ablaal",
+          "nameSo": "Dr. Sakariye Ablaal",
+          "title": "Director General",
+          "titleSo": "Agaasimaha Guud",
+          "bio": "Dr. Sakariye oversees all academic operations and strategic planning for Ablaal Schools. He holds a PhD in Educational Leadership and has 20+ years of experience in school administration.",
+          "bioSo": "Dr. Sakariye wuxuu maamulaa dhammaan howlaha waxbarasho iyo qorsheynta istiraatiijiyadeed ee Dugsiyada Ablaal. Waxa uu leeyahay PhD oo Hogaanka Waxbarasho ah oo uu leeyahay 20+ sano oo khibrad ah oo maamul dugsiyeed ah.",
+          "image": "/images/director-1.jpg"
+        },
+        {
+          "id": "d2",
+          "name": "Ms. Fadumo Ibrahim",
+          "nameSo": "Marwo Fadumo Ibraahim",
+          "title": "Academic Director",
+          "titleSo": "Agaasimaha Waxbarashada",
+          "bio": "Ms. Fadumo leads our curriculum development and teacher training programs. She is passionate about innovative teaching methods and student-centered learning.",
+          "bioSo": "Marwo Fadumo wuxuu hogaamiyaa horumarinta manhajkeena iyo barnaamijyada tababarka barayaasha. Waxay ku dhacsan tahay hababka waxbarasho ee hal-abuureed iyo waxbarasho oo ardayda ku dhex saabsan.",
+          "image": "/images/director-2.jpg"
+        },
+        {
+          "id": "d3",
+          "name": "Mr. Omar Hassan",
+          "nameSo": "Mr. Cumar Xasan",
+          "title": "Operations Director",
+          "titleSo": "Agaasimaha Hawlaha",
+          "bio": "Mr. Omar manages the day-to-day operations across all Ablaal School branches, ensuring smooth functioning and quality service delivery.",
+          "bioSo": "Mr. Cumar wuxuu maamulaa howlaha maalinlaha ah ee dhammaan laamaha Dugsiga Ablaal, hubina inay si siman u shaqeeyaan oo adeeg tayo leh bixiyaan.",
+          "image": "/images/director-3.jpg"
+        },
+        {
+          "id": "d4",
+          "name": "Ms. Amina Ali",
+          "nameSo": "Marwo Aamina Cali",
+          "title": "Student Affairs Director",
+          "titleSo": "Agaasimaha Arrimaha Ardayda",
+          "bio": "Ms. Amina oversees student welfare, counseling services, and extracurricular activities, ensuring every student thrives both academically and personally.",
+          "bioSo": "Marwo Aamina wuxuu maamulaa daboolka ardayda, adeegyada talada, iyo hawlaha dheeraadka ah, hubina in arday kastu uu koro waxbarasho iyo shaqsiyanba.",
+          "image": "/images/director-4.jpg"
+        },
+        {
+          "id": "d5",
+          "name": "Mr. Mohamed Farah",
+          "nameSo": "Mr. Maxamed Faarax",
+          "title": "Finance Director",
+          "titleSo": "Agaasimaha Maaliyadda",
+          "bio": "Mr. Mohamed manages the financial operations and ensures sustainable growth while maintaining affordability for families.",
+          "bioSo": "Mr. Maxamed wuxuu maamulaa howlaha maaliyadeed oo hubiyaa koboc waara inta lagu jiro ilaalinta qiimaha qoysaska.",
+          "image": "/images/director-5.jpg"
+        }
+      ],
+      "message": "Together, our leadership team is committed to upholding the highest standards of education and creating an environment where every student can achieve their dreams.",
+      "messageSo": "Wadajir, kooxdeena hogaanka waxaan u dhaqannaa xeerarka ugu sarreeya ee waxbarasho oo abuuraya deegaan ay arday kastu u gaari karto riyadooda."
+    },
+    "missionVision": {
+      "hero": {
+        "title": "Mission & Vision",
+        "titleSo": "Ujeeddo & Aragti",
+        "subtitle": "The guiding principles that shape everything we do at Ablaal Schools",
+        "subtitleSo": "Mabaadi'da hoggaamiya wax kasta oo aan ku sameyno Dugsiyada Ablaal",
+        "backgroundImage": "/images/mission-hero.jpg"
+      },
+      "whoWeAre": {
+        "title": "Who We Are",
+        "titleSo": "Yaa Nahay",
+        "content": "Ablaal Primary and Secondary Schools have played a pioneering role in Somalia's education sector since 1988. As a non-profit private institution, we remain committed to accessible, high-quality education for all. We were Somalia's first English-medium K-12 school, setting a precedent for modern academic programs in the country.",
+        "contentSo": "Dugsiyada Hoose iyo Dhexe ee Ablaal waxay ciyaarey door hogaamineed oo ku saabsan waxbarashada Soomaaliya tan iyo 1988. Hay'ad gaar ah oo aan faa'iido doon ahayn, waxaan ku dhaqannaa waxbarasho tayo leh oo la heli karo oo dhammaan. Waxaan ahaanay dugsiga ugu horreeyay ee Ingiriisi-ah ee K-12 ee Soomaaliya, oo dejiyey qaacidooyin waxbarasho casri ah oo dalka."
+      },
+      "core": {
+        "title": "The Core of Ablaal Schools",
+        "titleSo": "Guddiga Dugsiyada Ablaal",
+        "content": "At the heart of Ablaal Schools lies a deep commitment to educational excellence, character development, and community service. We believe that education is not just about academic achievement but about shaping responsible, compassionate citizens who will contribute positively to society.",
+        "contentSo": "Xuduudka Dugsiyada Ablaal waxaa ku yaal dhammaan dhaqan ahaan u dhaqan waxsanaan waxbarasho, kobcinta dabeecadda, iyo adeegga bulshada. Waxaan qabannaa in waxbarashadu aanay ahayn waxbarasho oo keliya ee ay tahay in lagu qeexo muwaadiniin mas'uul ah oo naxariis leh oo bulshada si wanaagsan ugu dhex shaqeeya."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "titleSo": "Ujeeddadeena",
+        "content": "To provide a high-quality, inclusive education that nurtures the intellectual, emotional, and social development of every student. We are committed to fostering a dynamic learning environment where students are encouraged to explore their potential, think critically, and act wisely with integrity.",
+        "contentSo": "Inaan bixiyo waxbarasho tayo leh oo dhex-mid ah oo daryeela horumarka maskaxda, dareenka, iyo bulshada ee arday kasta. Waxaan u dhaqannaa deegaan waxbarasho oo firfircoon halkaas oo ardayda lagu dhiirrigeliyo inay sahamiyaan kartidooda, si qoto dheer u fikiraan, oo si caqli leh u dhaqmaan oo daacad ah."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "titleSo": "Aragtideena",
+        "content": "To be a leading educational institution, fostering academic excellence, critical thinking, and personal growth. We aim to empower students with the knowledge, skills, and values necessary to succeed in a rapidly changing world.",
+        "contentSo": "Inaan noqono hay'ad waxbarasho oo hogaamineysa, oo kobcisa waxsanaan waxbarasho, fikir qoto dheer, iyo koboc shaqsiyeed. Waxaan u jeednaa inaan ardayda u xoojino aqoon, xirfadaha, iyo qiimayaasha loo baahan yahay si ay ugu guuleystaan adduun si dhakhso ah isbeddelaya."
+      },
+      "purpose": {
+        "title": "Our Purpose",
+        "titleSo": "Ujeeddadeena",
+        "content": "We exist to transform lives through education. Every decision we make, every program we implement, and every interaction we have with our students is guided by our desire to make a lasting positive impact on their lives and the communities they serve. Our motto: Working together for students' success.",
+        "contentSo": "Waxaan u jirnaa inaan beddelno nolosha waxbarasho. Go'aan kasta oo aan qaadno, barnaamij kasta oo aan hirgelino, iyo isweydaarsiga kasta oo aan la yeelanno ardaydeena waxaa hogaamiya rabitaankeena inaan saamayn togan oo waara ku yeelanno noloshooda iyo bulshadooda ay u adeegaan. Maahmaahdayada: Wadajir u shaqeyna guusha ardayda."
+      }
+    },
+    "coreValues": {
+      "hero": {
+        "title": "Our Core Values",
+        "titleSo": "Qiimayaasha Aasaasiga ah",
+        "subtitle": "The principles that guide our actions and shape our culture",
+        "subtitleSo": "Mabaadi'da hoggaamiya ficilladeena oo qeexaya dhaqankeena",
+        "backgroundImage": "/images/values-hero.jpg"
+      },
+      "values": [
+        {
+          "id": "1",
+          "icon": "Star",
+          "title": "Excellence",
+          "titleSo": "Waxsanaan",
+          "description": "We strive for excellence in everything we do, setting high standards and continuously improving to achieve the best outcomes for our students.",
+          "descriptionSo": "Waxaan u dadaalnaa waxsanaan wax kasta oo aan sameyno, dejineynaa heerar sare oo sii wadnaa horumar si aan u gaarno natiijooyinka ugu fiican ardaydeena."
+        },
+        {
+          "id": "2",
+          "icon": "Heart",
+          "title": "Integrity",
+          "titleSo": "Daacadnimo",
+          "description": "We act with honesty, transparency, and ethical behavior in all our interactions, building trust with our community.",
+          "descriptionSo": "Waxaan ku dhaqannaa daacadnimo, daahfurnaan, iyo dhaqan anshax leh oo dhammaan isweydaarsigayaga, dhismaya kalsooni bulshadeena."
+        },
+        {
+          "id": "3",
+          "icon": "Lightbulb",
+          "title": "Innovation",
+          "titleSo": "Hal-abuur",
+          "description": "We embrace creativity and innovation, constantly seeking new and better ways to educate and inspire our students.",
+          "descriptionSo": "Waxaan dhiirrigelinaa hal-abuur iyo hal-abuur, joogto ah raadisaya habab cusub oo ka wanaagsan oo waxbarasho oo ardaydeena dhiirrigeliya."
+        },
+        {
+          "id": "4",
+          "icon": "Users",
+          "title": "Community Engagement",
+          "titleSo": "Ka Qayb Qaadashada Bulshada",
+          "description": "We actively engage with our community, building strong partnerships with families and local organizations to support student success.",
+          "descriptionSo": "Waxaan si firfircoon ula dhaqannaa bulshadeena, oo dhisanayna iskaashi xooggan oo qoysaska iyo ururada deegaanka si aan u taageerno guusha ardayda."
+        },
+        {
+          "id": "5",
+          "icon": "Handshake",
+          "title": "Respect",
+          "titleSo": "Ixtiraam",
+          "description": "We value diversity and treat everyone with dignity and respect, creating an inclusive environment where all feel welcome.",
+          "descriptionSo": "Waxaan qiimeynaa kala duwanaanshaha oo dhammaan waxaan ula dhaqannaa sharaf iyo ixtiraam, abuuraya deegaan dhex-mid ah oo dhammaan isku soo dhaweyn."
+        }
+      ]
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Services & Facilities",
+      "titleSo": "Adeegyada & Xarumaha",
+      "subtitle": "World-class facilities and services designed to support every aspect of student life",
+      "subtitleSo": "Xarumaha heerka aduunka iyo adeegyada loogu talagalay inay taageeraan dhinac kasta oo nolosha ardayda",
+      "backgroundImage": "/images/services-hero.jpg"
+    },
+    "intro": "At Ablaal Schools, we believe that a great education extends beyond the classroom. Our facilities and services are designed to create a holistic learning environment where students can thrive academically, socially, and personally.",
+    "introSo": "Dugsiyada Ablaal, waxaan qabannaa in waxbarasho wanaagsan ay ka baxdo qolka fasalka. Xarumahayaga iyo adeegyadayagu waxay u talagalaan inay abuuraan deegaan waxbarasho oo dhammaystiran halkaas oo ardaydu ugu guuleysan karaan waxbarasho, bulsho, iyo shaqsiyanba.",
+    "facilities": {
+      "title": "On Campus — Ablaal School Facilities",
+      "titleSo": "Xarunta — Xarumaha Dugsiga Ablaal",
+      "items": [
+        {
+          "id": "1",
+          "title": "Learning Environments",
+          "titleSo": "Deegaannada Waxbarashada",
+          "description": "Our classrooms are designed to inspire learning, equipped with modern teaching aids, comfortable seating, and optimal lighting. We maintain small class sizes to ensure personalized attention for every student.",
+          "descriptionSo": "Qolashadayada waxbarashadu waxay u talagalaan inay dhiirrigeliyaan waxbarasho, waxayna ku hubeeystay caawimaad waxbarasho casri ah, fadhi raaxo leh, iyo iftiin ugu fiican. Waxaan ilaalinaynaa cayimaha fasalka ee yaryar si aan u hubiyo daryeel gaar ah oo arday kasta.",
+          "image": "/images/facility-1.jpg"
+        },
+        {
+          "id": "2",
+          "title": "Innovation & STEM Spaces",
+          "titleSo": "Hal-abuur & Meelaha STEM",
+          "description": "Our science laboratories, computer labs, and innovation spaces provide hands-on learning experiences. Students have access to the latest technology and equipment to explore, experiment, and create.",
+          "descriptionSo": "Laboratoryo sayniseed, kompyutar lab, iyo meelaha hal-abuurkeenu waxay bixiyaan waayo-aragnimo waxbarasho oo gacanta ku jirta. Ardaydu waxay helayaan teknoolojiyadda ugu dambeysa iyo qalabka si ay u sahamiyaan, tijaabiyaan, iyo abuuraan.",
+          "image": "/images/facility-2.jpg"
+        },
+        {
+          "id": "3",
+          "title": "Library & Resource Center",
+          "titleSo": "Maktabadda & Xarunta Ilaha",
+          "description": "Our well-stocked library offers a vast collection of books, digital resources, and quiet study spaces. Students can explore literature, conduct research, and develop a love for reading.",
+          "descriptionSo": "Maktabadeena oo si fiican u buuxda waxay bixisaa urur weyn oo buugaag, ilo dijitaal ah, iyo meelaha barashada deggan. Ardaydu waxay sahamin karaan suugaan, cilmibaaris sameyn karaan, kobciyaan jacaylka akhriska.",
+          "image": "/images/facility-3.jpg"
+        },
+        {
+          "id": "4",
+          "title": "Sports & Recreation",
+          "titleSo": "Ciyaar & Madadaalo",
+          "description": "Our sports facilities include playgrounds, basketball courts, and indoor game areas. We encourage physical activity and team sports to promote health, fitness, and teamwork.",
+          "descriptionSo": "Xarumaha ciyaarkeena waxaa ka mid ah meelaha ciyaaraha, garoomayaasha kubadda koleyga, iyo meelaha ciyaaraha gudaha. Waxaan dhiirrigelinaynaa dhaqanka jirka iyo ciyaaraha kooxda si loo dhiirrigeliyo caafimaadka, jimicsiga, iyo shaqada kooxda.",
+          "image": "/images/facility-4.jpg"
+        }
+      ]
+    },
+    "services": {
+      "title": "On Campus — Ablaal School Services",
+      "titleSo": "Xarunta — Adeegyada Dugsiga Ablaal",
+      "intro": "A great education is more than what happens in the classroom. From wellbeing to daily convenience, our on-campus services ensure every student and family feels supported throughout their school journey.",
+      "introSo": "Waxbarasho wanaagsan waa ka badan waxa ka dhaca qolka fasalka. Laga bilaabo caafimaadka ilaa habeenkii maalintii, adeegyadayada xarunta waxay hubiyaan in arday kasta iyo qoys uu dareemo taageero oo dhan safarkooda dugsiyeed.",
+      "items": [
+        {
+          "id": "1",
+          "title": "Counselling",
+          "titleSo": "Talo-bixin",
+          "description": "Our professional counselors provide academic guidance, career counseling, and emotional support. Students can access one-on-one sessions to discuss personal challenges and develop coping strategies.",
+          "descriptionSo": "Talo-biyayaasha xirfadeed ee waxay bixiyaan hagid waxbarasho, talo-xidhmo xirfad, iyo taageero dareen. Ardaydu waxay helayaan kulammo hal-kiiba si ay uga hadlaan caqabadaha shaqsiga ah oo ay kobciyaan istiraatiijiyadaha la dagaallamaya.",
+          "image": "/images/service-1.jpg"
+        },
+        {
+          "id": "2",
+          "title": "Campus Security",
+          "titleSo": "Amniga Xarunta",
+          "description": "The safety of our students is our top priority. Our campuses are equipped with security personnel, CCTV monitoring, and controlled access points to ensure a safe learning environment.",
+          "descriptionSo": "Nabadgelyada ardaydeenu waa mudnaanta koowaad. Xarumahayagu waxay ku hubeeystay shaqaalaha amniga, kormeerka CCTV, iyo daaqadaha gelitaanka la xakameeyo si loo hubiyo deegaan waxbarasho oo ammaan ah.",
+          "image": "/images/service-2.jpg"
+        },
+        {
+          "id": "3",
+          "title": "Bus Services",
+          "titleSo": "Adeegyada Basaska",
+          "description": "We provide safe and reliable transportation services covering major areas of Mogadishu. Our buses are well-maintained, driven by trained drivers, and monitored for student safety.",
+          "descriptionSo": "Waxaan bixinaa adeegyo gaadhsiin oo ammaan ah oo la kalsoonaan karo oo daboolaya meelaha waaweyn ee Muqdisho. Basaskayadu waxay si fiican u ilaaliyaan, waxaa wata darawallo tababar la siiyay, waxaana la kormeeraa nabadgelyada ardayda.",
+          "image": "/images/service-3.jpg"
+        },
+        {
+          "id": "4",
+          "title": "Health & Wellness",
+          "titleSo": "Caafimaad & Caafimaad",
+          "description": "Our school clinics provide basic healthcare services, first aid, and health education. We conduct regular health check-ups and maintain health records for all students.",
+          "descriptionSo": "Isbitaallada dugsiyeed ee waxay bixiyaan adeegyada caafimaadka aasaasiga ah, gargaarka koowaad, iyo waxbarashada caafimaadka. Waxaan sameynaynaa baaritaannada caafimaadka joogtada ah oo aan hayno diiwaanada caafimaadka ee ardayda oo dhan.",
+          "image": "/images/service-4.jpg"
+        }
+      ]
+    }
+  },
+  "academics": {
+    "primary": {
+      "hero": {
+        "title": "Primary School",
+        "titleSo": "Dugsiga Hoose",
+        "subtitle": "Building strong foundations for lifelong learning",
+        "subtitleSo": "Dhismaya aasaas xooggan oo waxbarasho nolosha oo dhan",
+        "backgroundImage": "/images/primary-hero.jpg"
+      },
+      "description": "Our Primary Education program focuses on foundational learning in Literacy (English, Somali, Arabic), Numeracy (Mathematics), Basic Sciences, Social Studies, Islamic Studies, and Creative Arts. We create a nurturing environment where young learners can explore, discover, and grow.",
+      "descriptionSo": "Barnaamijkeena Waxbarashada Hoose waxuu diiradda saarayaa waxbarashada aasaasiga ah ee Akhriska (Ingiriisi, Soomaali, Carabi), Xisaabta (Xisaabta), Sayniska Aasaasiga ah, Cilmiga Bulshada, Cilmiga Islaamka, iyo Farshaxanka Hal-abuurka. Waxaan abuuraynaa deegaan daryeel ah halkaas oo ardayda yaryaru ay sahamin, hel, koro karaan.",
+      "images": [
+        "/images/primary-1.jpg",
+        "/images/primary-2.jpg",
+        "/images/primary-3.jpg"
+      ],
+      "programs": [
+        {
+          "id": "p1",
+          "gradeRange": "Grades 1-4",
+          "gradeRangeSo": "Fasalada 1-4",
+          "subjects": ["Somali Language", "English Language", "Mathematics", "Science", "Social Studies", "Islamic Studies", "Arts & Crafts"],
+          "subjectsSo": ["Luuqadda Soomaaliga", "Luuqadda Ingiriiska", "Xisaabta", "Sayniska", "Cilmiga Bulshada", "Cilmiga Islaamka", "Farshaxanka & Hawlaha Gacanta"],
+          "description": "Our lower primary program introduces students to core academic subjects while developing social skills and creativity through interactive learning.",
+          "descriptionSo": "Barnaamijkeenna hoose ee dugsiga hoose wuxuu ardayda ku soo bandhigaa mawduucyada waxbarasho ee aasaasiga ah inta lagu jiro kobcinta xirfadaha bulshada iyo hal-abuurka waxbarasho isweydaarsiga ah."
+        },
+        {
+          "id": "p2",
+          "gradeRange": "Grades 5-8",
+          "gradeRangeSo": "Fasalada 5-8",
+          "subjects": ["Somali Language", "English Language", "Mathematics", "Science", "Social Studies", "Islamic Studies", "Arts & Crafts", "Physical Education"],
+          "subjectsSo": ["Luuqadda Soomaaliga", "Luuqadda Ingiriiska", "Xisaabta", "Sayniska", "Cilmiga Bulshada", "Cilmiga Islaamka", "Farshaxanka & Hawlaha Gacanta", "Waxbarashada Jirka"],
+          "description": "Our upper primary program builds on foundational skills, introducing more complex concepts and preparing students for secondary education.",
+          "descriptionSo": "Barnaamijkeenna sare ee dugsiga hoose wuxuu ku dhisanyahay xirfadaha aasaasiga ah, wuxuuna soo bandhigaa fikrado ka adag oo u diyaarinaya ardayda waxbarashada dugsiga dhexe."
+        }
+      ]
+    },
+    "secondary": {
+      "hero": {
+        "title": "Secondary School",
+        "titleSo": "Dugsiga Dhexe",
+        "subtitle": "Preparing students for higher education and future careers",
+        "subtitleSo": "Ardayda ku diyaarinaya waxbarashada sare iyo xirfadaha mustaqbalka",
+        "backgroundImage": "/images/secondary-hero.jpg"
+      },
+      "description": "Our Secondary Education program provides advanced studies in Science, Technology, Mathematics, Languages, and Social Sciences (History & Geography), and Business. We emphasize critical thinking, independent learning, and character development to prepare students for national examinations and future success.",
+      "descriptionSo": "Barnaamijkeenna Waxbarashada Dhexe wuxuu bixiyaa waxbarasho horumarineed oo ku saabsan Sayniska, Tiknoolajiyada, Xisaabta, Luuqadaha, iyo Cilmiga Bulshada (Taariikh & Juqraafi), iyo Ganacsiga. Waxaan diiradda saarnaa fikirka qoto dheer, waxbarashada madax-bannaan, iyo kobcinta dabeecadda si aan u diyaarinno ardayda imtixaannada qaran iyo guusha mustaqbalka.",
+      "images": [
+        "/images/secondary-1.jpg",
+        "/images/secondary-2.jpg",
+        "/images/secondary-3.jpg"
+      ],
+      "programs": [
+        {
+          "id": "s1",
+          "gradeRange": "Grades 9-12",
+          "gradeRangeSo": "Fasalada 9-12",
+          "subjects": ["Somali Language", "English Language", "Mathematics", "Physics", "Chemistry", "Biology", "Geography", "History", "Islamic Studies", "Computer Science", "Business Studies", "Physical Education"],
+          "subjectsSo": ["Luuqadda Soomaaliga", "Luuqadda Ingiriiska", "Xisaabta", "Fiisigis", "Kimisteri", "Bayoloji", "Juqraafi", "Taariikh", "Cilmiga Islaamka", "Sayniska Kombiyuutarka", "Cilmiga Ganacsiga", "Waxbarashada Jirka"],
+          "description": "Our secondary program offers a rigorous curriculum designed to prepare students for national examinations and university entrance. We provide career guidance and support students in making informed decisions about their future.",
+          "descriptionSo": "Barnaamijkeenna dugsiga dhexe wuxuu bixiyaa manhaj adag oo loogu talagalay inuu ardayda u diyaariyo imtixaannada qaran iyo gelitaanka jaamacadda. Waxaan bixinaa hagid xirfad oo ardayda taageera go'aan qaadashada macluumaadka ku saabsan mustaqbalkooda."
+        }
+      ],
+      "futureSkills": {
+        "title": "Essential Job Readiness Skills",
+        "titleSo": "Xirfadaha Muhiimka ah ee Diyaarinta Shaqada",
+        "skills": [
+          { "name": "Communication Skills", "nameSo": "Xirfadaha Isgaarsiinta", "description": "Developing clear speaking and writing abilities for effective interaction" },
+          { "name": "Entrepreneurial Skills", "nameSo": "Xirfadaha Ganacsiga", "description": "Developing students' entrepreneurial mindset" },
+          { "name": "Interpersonal Skills", "nameSo": "Xirfadaha Dadka", "description": "Learning to engage with employers and customers positively" },
+          { "name": "Financial Literacy", "nameSo": "Aqoonsiga Maaliyadda", "description": "Understanding money management and budgeting principles" },
+          { "name": "Networking Skills", "nameSo": "Xirfadaha Shabakadda", "description": "Learning how to communicate and connect with potential employers" },
+          { "name": "Problem-Solving Skills", "nameSo": "Xirfadaha Xalinta Dhibaatooyinka", "description": "Analyzing situations and developing solutions to challenges" },
+          { "name": "Technical Skills", "nameSo": "Xirfadaha Farsamo", "description": "Basic IT Proficiency - learning systems and applications software" },
+          { "name": "Leadership Skills", "nameSo": "Xirfadaha Hogaanka", "description": "Empowering students to take initiative and inspire others" },
+          { "name": "Media Literacy", "nameSo": "Aqoonsiga Warbaahinta", "description": "Presentation skills, creating content, analyzing media critically" }
+        ]
+      }
+    }
+  },
+  "admissions": {
+    "hero": {
+      "title": "Admissions",
+      "titleSo": "Gelitaanka",
+      "subtitle": "Join the Ablaal Schools family and give your child the gift of quality education",
+      "subtitleSo": "Ku biir qoysaka Dugsiyada Ablaal oo siiso ilmahaaga hadiyadda waxbarasho tayo leh",
+      "backgroundImage": "/images/admissions-hero.jpg"
+    },
+    "facts": {
+      "title": "Facts at a Glance",
+      "titleSo": "Xog Gaagaaban",
+      "items": [
+        { "label": "Years of Excellence", "labelSo": "Sano ee Waxsanaan", "value": "37" },
+        { "label": "Teachers & Management", "labelSo": "Barayaal & Maamul", "value": "223" },
+        { "label": "Active Students", "labelSo": "Arday Firfircoon", "value": "7,000+" },
+        { "label": "Scholarship Students", "labelSo": "Arday Deeq Waxbarasho", "value": "1,000+" },
+        { "label": "Total Graduates", "labelSo": "Dhammaan Dhammaadayaasha", "value": "15,678" }
+      ]
+    },
+    "requirements": {
+      "title": "Admission Requirements",
+      "titleSo": "Shuruudaha Gelitaanka",
+      "items": [
+        "Completed application form",
+        "Birth certificate or passport copy",
+        "Previous school records/transcripts",
+        "Two recent passport-sized photographs",
+        "Medical clearance certificate",
+        "Entrance examination (for certain grades)",
+        "Parent/guardian interview"
+      ],
+      "itemsSo": [
+        "Foomka codsiga oo dhammaystiran",
+        "Shahaadada dhalashada ama nuqul baasaboorka",
+        "Diiwaanada dugsiga hore/warqadaha",
+        "Sawirro laba ah oo baasaboor cabbir ah oo dhowaan",
+        "Shahaadada nadiifinta caafimaadka",
+        "Imtixaanka gelitaanka (qaar ka mid ah fasalada)",
+        "Warbixin waalid/ilaaliyee"
+      ]
+    },
+    "process": {
+      "title": "Application Process",
+      "titleSo": "Habka Codsiga",
+      "steps": [
+        {
+          "title": "Submit Application",
+          "titleSo": "Gudbi Codsiga",
+          "description": "Complete and submit the online or in-person application form along with required documents.",
+          "descriptionSo": "Dhammaystir oo gudbi foomka codsiga khadka tooska ah ama qof ahaan oo ku jira warqadaha loo baahan yahay."
+        },
+        {
+          "title": "Entrance Assessment",
+          "titleSo": "Qiimaynta Gelitaanka",
+          "description": "Students may be required to take an entrance examination to assess their academic level.",
+          "descriptionSo": "Ardaydu waxay loo baahan yihiin inay qaadaan imtixaanka gelitaanka si loo qiimeyo heerka waxbarashadooda."
+        },
+        {
+          "title": "Interview",
+          "titleSo": "Warbixin",
+          "description": "Parents/guardians and students will be invited for an interview with school administration.",
+          "descriptionSo": "Waalidka/ilaaliyeyaasha iyo ardayda waxaa loogu yeeri doonaa waraysi maamulka dugsiga."
+        },
+        {
+          "title": "Admission Decision",
+          "titleSo": "Go'aanka Gelitaanka",
+          "description": "The school will notify families of the admission decision within two weeks of the interview.",
+          "descriptionSo": "Dugsigu waxuu ogeysiinayaa qoysaska go'aanka gelitaanka laba toddobaad gudahood kadib waraysiga."
+        },
+        {
+          "title": "Enrollment",
+          "titleSo": "Is Diiwaangelinta",
+          "description": "Upon acceptance, complete the enrollment process by paying fees and submitting remaining documents.",
+          "descriptionSo": "Marka la aqbalo, dhammaystir habka is-diiwaangelinta adigoo bixinaya kharashka iyo gudbinta warqadaha hadhay."
+        }
+      ]
+    },
+    "scholarships": {
+      "title": "Scholarships & Financial Aid",
+      "titleSo": "Deeqaha Waxbarasho & Caawimaadda Maaliyadeed",
+      "description": "Ablaal Schools is committed to providing educational opportunities to all students, regardless of their financial situation. We offer over 1,000 full scholarships to deserving students each year.",
+      "descriptionSo": "Dugsiyada Ablaal waxay ku dhaqannaa inay bixiyaan fursad waxbarasho oo dhan ardayda oo dhan, iyadoo aan la eegin xaaladda dhaqaalaha. Waxaan bixinaa in ka badan 1,000 deeq waxbarasho oo buuxda oo ardayda mudan sanad kasta.",
+      "image": "/images/scholarship.jpg"
+    },
+    "fees": {
+      "title": "School Fees",
+      "titleSo": "Kharashka Dugsiga",
+      "note": "For detailed fee information, please contact our admissions office at info@ablaalschools.so or call +252 612 277 993. We offer flexible payment plans and scholarships for deserving students. Our low-cost, high-quality education model ensures accessibility for all families.",
+      "noteSo": "Xogta faahfaahsan ee kharashka, fadlan nala soo xiriir xafiiska gelitaanka ee info@ablaalschools.so ama wac +252 612 277 993. Waxaan bixinaa qorshayaal lacag bixin oo deggan iyo deeqo waxbarasho ah oo ardayda mudan. Qaabkeenna waxbarasho oo qiimo jaban oo tayo sare leh wuxuu hubiyaa in la heli karo dhammaan qoysaska."
+    }
+  },
+  "branches": {
+    "hero": {
+      "title": "Our Branches",
+      "titleSo": "Laamaha",
+      "subtitle": "Ten campuses across Somalia, serving communities with excellence",
+      "subtitleSo": "Toban xarumood oo ku yaalla Soomaaliya, u adeega bulshooyinka si waxsanaan",
+      "backgroundImage": "/images/branches-hero.jpg"
+    },
+    "branches": [
+      {
+        "id": "b1",
+        "name": "Ablaal Hodan Campus",
+        "nameSo": "Xarunta Hodan ee Ablaal",
+        "district": "Hodan District",
+        "districtSo": "Degmada Hodan",
+        "address": "Hodan District, Mogadishu, Somalia",
+        "addressSo": "Degmada Hodan, Muqdisho, Soomaaliya",
+        "phone": "+252 61 111 1111",
+        "email": "hodan@ablaalschools.so",
+        "principal": {
+          "name": "Mr. Hassan Ali",
+          "nameSo": "Mr. Xasan Cali",
+          "image": "/images/principal-1.jpg",
+          "video": "https://www.youtube.com/embed/sample1"
+        },
+        "vicePrincipal": {
+          "name": "Ms. Fatima Omar",
+          "nameSo": "Marwo Faadumo Cumar",
+          "image": "/images/vp-1.jpg",
+          "video": "https://www.youtube.com/embed/sample2"
+        }
+      },
+      {
+        "id": "b2",
+        "name": "Ablaal Hoolwadaag Campus",
+        "nameSo": "Xarunta Hoolwadaag ee Ablaal",
+        "district": "Hoolwadaag District",
+        "districtSo": "Degmada Hoolwadaag",
+        "address": "Hoolwadaag District, Mogadishu, Somalia",
+        "addressSo": "Degmada Hoolwadaag, Muqdisho, Soomaaliya",
+        "phone": "+252 61 222 2222",
+        "email": "hoolwadaag@ablaalschools.so",
+        "principal": {
+          "name": "Mr. Mohamed Yusuf",
+          "nameSo": "Mr. Maxamed Yuusuf",
+          "image": "/images/principal-2.jpg",
+          "video": "https://www.youtube.com/embed/sample3"
+        },
+        "vicePrincipal": {
+          "name": "Ms. Amina Hassan",
+          "nameSo": "Marwo Aamina Xasan",
+          "image": "/images/vp-2.jpg",
+          "video": "https://www.youtube.com/embed/sample4"
+        }
+      },
+      {
+        "id": "b3",
+        "name": "Ablaal Yaaqshid Campus",
+        "nameSo": "Xarunta Yaaqshid ee Ablaal",
+        "district": "Yaaqshid District",
+        "districtSo": "Degmada Yaaqshid",
+        "address": "Yaaqshid District, Mogadishu, Somalia",
+        "addressSo": "Degmada Yaaqshid, Muqdisho, Soomaaliya",
+        "phone": "+252 61 333 3333",
+        "email": "yaaqshid@ablaalschools.so",
+        "principal": {
+          "name": "Dr. Sakariye Ahmed",
+          "nameSo": "Dr. Sakariye Axmed",
+          "image": "/images/principal-3.jpg",
+          "video": "https://www.youtube.com/embed/sample5"
+        },
+        "vicePrincipal": {
+          "name": "Ms. Hawa Mohamed",
+          "nameSo": "Marwo Xawa Maxamed",
+          "image": "/images/vp-3.jpg",
+          "video": "https://www.youtube.com/embed/sample6"
+        }
+      },
+      {
+        "id": "b4",
+        "name": "Ablaal Hilwaa Campus",
+        "nameSo": "Xarunta Hilwaa ee Ablaal",
+        "district": "Hilwaa District",
+        "districtSo": "Degmada Hilwaa",
+        "address": "Hilwaa District, Mogadishu, Somalia",
+        "addressSo": "Degmada Hilwaa, Muqdisho, Soomaaliya",
+        "phone": "+252 61 444 4444",
+        "email": "hilwaa@ablaalschools.so",
+        "principal": {
+          "name": "Mr. Abdirahman Ali",
+          "nameSo": "Mr. Cabdiraxmaan Cali",
+          "image": "/images/principal-4.jpg",
+          "video": "https://www.youtube.com/embed/sample7"
+        },
+        "vicePrincipal": {
+          "name": "Ms. Sahra Omar",
+          "nameSo": "Marwo Sahra Cumar",
+          "image": "/images/vp-4.jpg",
+          "video": "https://www.youtube.com/embed/sample8"
+        }
+      },
+      {
+        "id": "b5",
+        "name": "Ablaal Daynile Campus",
+        "nameSo": "Xarunta Daynile ee Ablaal",
+        "district": "Daynile District",
+        "districtSo": "Degmada Daynile",
+        "address": "Daynile District, Mogadishu, Somalia",
+        "addressSo": "Degmada Daynile, Muqdisho, Soomaaliya",
+        "phone": "+252 61 555 5555",
+        "email": "daynile@ablaalschools.so",
+        "principal": {
+          "name": "Mr. Ibrahim Hassan",
+          "nameSo": "Mr. Ibraahim Xasan",
+          "image": "/images/principal-5.jpg",
+          "video": "https://www.youtube.com/embed/sample9"
+        },
+        "vicePrincipal": {
+          "name": "Ms. Khadija Mohamed",
+          "nameSo": "Marwo Khadiija Maxamed",
+          "image": "/images/vp-5.jpg",
+          "video": "https://www.youtube.com/embed/sample10"
+        }
+      },
+      {
+        "id": "b6",
+        "name": "Ablaal Elasha Biyaha Campus",
+        "nameSo": "Xarunta Elasha Biyaha ee Ablaal",
+        "district": "Elasha Biyaha",
+        "districtSo": "Elasha Biyaha",
+        "address": "Elasha Biyaha, Southwest State, Somalia",
+        "addressSo": "Elasha Biyaha, Gobalka Koonfur Galbeed, Soomaaliya",
+        "phone": "+252 61 666 6666",
+        "email": "elasha@ablaalschools.so",
+        "principal": {
+          "name": "Mr. Omar Farah",
+          "nameSo": "Mr. Cumar Faarax",
+          "image": "/images/principal-6.jpg",
+          "video": "https://www.youtube.com/embed/sample11"
+        },
+        "vicePrincipal": {
+          "name": "Ms. Halima Ahmed",
+          "nameSo": "Marwo Xaliima Axmed",
+          "image": "/images/vp-6.jpg",
+          "video": "https://www.youtube.com/embed/sample12"
+        }
+      },
+      {
+        "id": "b7",
+        "name": "Ablaal Dhusamareb Campus 1",
+        "nameSo": "Xarunta Dhusamareb 1 ee Ablaal",
+        "district": "Dhusamareb",
+        "districtSo": "Dhusamareb",
+        "address": "Dhusamareb, Galmudug State, Somalia",
+        "addressSo": "Dhusamareb, Maamul Goboleedka Galmudug, Soomaaliya",
+        "phone": "+252 61 777 7777",
+        "email": "dhusamareb1@ablaalschools.so",
+        "principal": {
+          "name": "Mr. Ali Mohamed",
+          "nameSo": "Mr. Cali Maxamed",
+          "image": "/images/principal-7.jpg",
+          "video": "https://www.youtube.com/embed/sample13"
+        },
+        "vicePrincipal": {
+          "name": "Ms. Fadumo Ali",
+          "nameSo": "Marwo Fadumo Cali",
+          "image": "/images/vp-7.jpg",
+          "video": "https://www.youtube.com/embed/sample14"
+        }
+      },
+      {
+        "id": "b8",
+        "name": "Ablaal Dhusamareb Campus 2",
+        "nameSo": "Xarunta Dhusamareb 2 ee Ablaal",
+        "district": "Dhusamareb",
+        "districtSo": "Dhusamareb",
+        "address": "Dhusamareb, Galmudug State, Somalia",
+        "addressSo": "Dhusamareb, Maamul Goboleedka Galmudug, Soomaaliya",
+        "phone": "+252 61 888 8888",
+        "email": "dhusamareb2@ablaalschools.so",
+        "principal": {
+          "name": "Mr. Hassan Omar",
+          "nameSo": "Mr. Xasan Cumar",
+          "image": "/images/principal-8.jpg",
+          "video": "https://www.youtube.com/embed/sample15"
+        },
+        "vicePrincipal": {
+          "name": "Ms. Amina Yusuf",
+          "nameSo": "Marwo Aamina Yuusuf",
+          "image": "/images/vp-8.jpg",
+          "video": "https://www.youtube.com/embed/sample16"
+        }
+      },
+      {
+        "id": "b9",
+        "name": "Ablaal Guriel Campus 1",
+        "nameSo": "Xarunta Guriel 1 ee Ablaal",
+        "district": "Guriel",
+        "districtSo": "Guriel",
+        "address": "Guriel, Galmudug State, Somalia",
+        "addressSo": "Guriel, Maamul Goboleedka Galmudug, Soomaaliya",
+        "phone": "+252 61 999 9999",
+        "email": "guriel1@ablaalschools.so",
+        "principal": {
+          "name": "Mr. Abdirizak Hassan",
+          "nameSo": "Mr. Cabdirisaaq Xasan",
+          "image": "/images/principal-9.jpg",
+          "video": "https://www.youtube.com/embed/sample17"
+        },
+        "vicePrincipal": {
+          "name": "Ms. Sahra Ali",
+          "nameSo": "Marwo Sahra Cali",
+          "image": "/images/vp-9.jpg",
+          "video": "https://www.youtube.com/embed/sample18"
+        }
+      },
+      {
+        "id": "b10",
+        "name": "Ablaal Guriel Campus 2",
+        "nameSo": "Xarunta Guriel 2 ee Ablaal",
+        "district": "Guriel",
+        "districtSo": "Guriel",
+        "address": "Guriel, Galmudug State, Somalia",
+        "addressSo": "Guriel, Maamul Goboleedka Galmudug, Soomaaliya",
+        "phone": "+252 61 000 0000",
+        "email": "guriel2@ablaalschools.so",
+        "principal": {
+          "name": "Mr. Mohamed Ibrahim",
+          "nameSo": "Mr. Maxamed Ibraahim",
+          "image": "/images/principal-10.jpg",
+          "video": "https://www.youtube.com/embed/sample19"
+        },
+        "vicePrincipal": {
+          "name": "Ms. Fatima Hassan",
+          "nameSo": "Marwo Faadumo Xasan",
+          "image": "/images/vp-10.jpg",
+          "video": "https://www.youtube.com/embed/sample20"
+        }
+      }
+    ]
+  },
+  "gallery": {
+    "hero": {
+      "title": "Gallery",
+      "titleSo": "Sawirada",
+      "subtitle": "Moments captured from life at Ablaal Schools",
+      "subtitleSo": "Xilliyo laga qabtay nolosha Dugsiyada Ablaal",
+      "backgroundImage": "/images/gallery-hero.jpg"
+    },
+    "images": [
+      {
+        "id": "g1",
+        "src": "/images/gallery-1.jpg",
+        "category": "students",
+        "caption": "Students in classroom",
+        "captionSo": "Ardayda qolka fasalka"
+      },
+      {
+        "id": "g2",
+        "src": "/images/gallery-2.jpg",
+        "category": "staff",
+        "caption": "Our dedicated teachers",
+        "captionSo": "Barayaasheena dhexdhexaadka ah"
+      },
+      {
+        "id": "g3",
+        "src": "/images/gallery-3.jpg",
+        "category": "graduations",
+        "caption": "Graduation ceremony 2024",
+        "captionSo": "Munaasabadda dhammaadka 2024"
+      },
+      {
+        "id": "g4",
+        "src": "/images/gallery-4.jpg",
+        "category": "campuses",
+        "caption": "Hodan Campus",
+        "captionSo": "Xarunta Hodan"
+      },
+      {
+        "id": "g5",
+        "src": "/images/gallery-5.jpg",
+        "category": "students",
+        "caption": "Science fair projects",
+        "captionSo": "Mashruucada sayniska"
+      },
+      {
+        "id": "g6",
+        "src": "/images/gallery-6.jpg",
+        "category": "campuses",
+        "caption": "School library",
+        "captionSo": "Maktabadda dugsiga"
+      }
+
+        
+    ]
+  },
+  "newsEvents": {
+    "hero": {
+      "title": "News & Events",
+      "titleSo": "Wararka & Dhacdooyinka",
+      "subtitle": "Stay updated with the latest happenings at Ablaal Schools",
+      "subtitleSo": "U laabo waxyaabaha ugu dambeeya ee ka dhacaya Dugsiyada Ablaal",
+      "backgroundImage": "/images/news-hero.jpg"
+    },
+    "items": [
+      {
+        "id": "n1",
+        "title": "Ablaal Schools Wins National Education Award",
+        "titleSo": "Dugsiyada Ablaal oo Ku Guuleystay Abaalmarinta Waxbarashada Qaran",
+        "excerpt": "We are proud to announce that Ablaal Schools has been recognized as the top performing school in Somalia for 2024.",
+        "excerptSo": "Waxaan ku faanaa inaan ku dhawaaqno in Dugsiyada Ablaal lagu aqoonsaday dugsiga ugu wanaagsan Soomaaliya ee 2024.",
+        "content": "Full article content here...",
+        "contentSo": "Qodobka buuxa halkan...",
+        "category": "news",
+        "date": "2024-01-15",
+        "image": "/images/news-1.jpg"
+      },
+      {
+        "id": "n2",
+        "title": "Annual Science Fair 2024",
+        "titleSo": "Bandhigga Sayniska Sanadlaha ah 2024",
+        "excerpt": "Join us for our annual science fair showcasing innovative projects from our talented students.",
+        "excerptSo": "Noo soo biir bandhiggeenna sayniska sanadlaha ah oo muujinaya mashruucyo hal-abuureed oo ka yimid ardaydeena tabarta leh.",
+        "content": "Full article content here...",
+        "contentSo": "Qodobka buuxa halkan...",
+        "category": "events",
+        "date": "2024-02-20",
+        "image": "/images/news-2.jpg"
+      },
+      {
+        "id": "n3",
+        "title": "Admissions Open for 2025-2026",
+        "titleSo": "Gelitaanku waa Furan yahay 2025-2026",
+        "excerpt": "Applications are now being accepted for the upcoming academic year. Apply early to secure your child's place.",
+        "excerptSo": "Codsiyada hadda waxaa la aqbalayaa sanadka waxbarasho ee soo socda. Codso hore si aad u ilaaliso meelaha ilmahaaga.",
+        "content": "Full article content here...",
+        "contentSo": "Qodobka buuxa halkan...",
+        "category": "announcements",
+        "date": "2024-03-01",
+        "image": "/images/news-3.jpg"
+      }
+    ],
+    "jobs": [
+      {
+        "id": "j1",
+        "title": "Mathematics Teacher",
+        "titleSo": "Macallinka Xisaabta",
+        "location": "Hodan Campus",
+        "locationSo": "Xarunta Hodan",
+        "description": "We are seeking an experienced Mathematics teacher for our secondary school program. The ideal candidate should have a degree in Mathematics or related field and at least 3 years of teaching experience.",
+        "descriptionSo": "Waxaan raadinaynaa macallin xisaab oo khibrad leh oo barnaamijkeenna dugsiga dhexe. Musharaxa ugu fiican wuxuu u baahan yahay heer xisaab ama aasaas la mid ah oo ugu yaraan 3 sano oo khibrad waxbarasho ah.",
+        "requirements": [
+          "Bachelor's degree in Mathematics or related field",
+          "Minimum 3 years teaching experience",
+          "Excellent communication skills",
+          "Passion for education and student development"
+        ],
+        "requirementsSo": [
+          "Shahaadada heerka koowaad ee Xisaabta ama aasaas la mid ah",
+          "Ugu yaraan 3 sano oo khibrad waxbarasho ah",
+          "Xirfadaha wanaagsan ee isgaarsiinta",
+          "Jacaylka waxbarasho iyo kobcinta ardayda"
+        ],
+        "deadline": "2024-04-30",
+        "isActive": true,
+        "type": "teacher"
+      },
+      {
+        "id": "j2",
+        "title": "School Principal",
+        "titleSo": "Madaxa Dugsiga",
+        "location": "Yaaqshid Campus",
+        "locationSo": "Xarunta Yaaqshid",
+        "description": "We are looking for an experienced school principal to lead our Yaaqshid campus. The successful candidate will be responsible for overall school management, academic excellence, and staff development.",
+        "descriptionSo": "Waxaan raadinaynaa madax dugsiga oo khibrad leh oo hogaamiya xarunteena Yaaqshid. Musharaxa guuleysta wuxuu mas'uul ka noqon doonaa maareynta guud ee dugsiga, waxsanaanta waxbarasho, iyo kobcinta shaqaalaha.",
+        "requirements": [
+          "Master's degree in Education or related field",
+          "Minimum 5 years experience in school leadership",
+          "Strong administrative and organizational skills",
+          "Visionary leadership abilities"
+        ],
+        "requirementsSo": [
+          "Shahaadada heerka labaad ee Waxbarashada ama aasaas la mid ah",
+          "Ugu yaraan 5 sano oo khibrad ah oo hogaanka dugsiga",
+          "Xirfadaha maamul iyo ururin xooggan",
+          "Awoodaha hogaanka aragti leh"
+        ],
+        "deadline": "2024-05-15",
+        "isActive": true,
+        "type": "principal"
+      }
+    ]
+  },
+  "community": {
+    "students": {
+      "hero": {
+        "title": "Our Students",
+        "titleSo": "Ardaydeena",
+        "subtitle": "Uniquely diverse, united in pursuit of excellence",
+        "subtitleSo": "Kala duwanaansho gaar ah, midowga raadinta waxsanaanta",
+        "backgroundImage": "/images/students-hero.jpg"
+      },
+      "title": "Uniquely Diverse",
+      "titleSo": "Kala Duwanaansho Gaar ah",
+      "subtitle": "Our Ablaal Students",
+      "subtitleSo": "Ardaydeena Ablaal",
+      "voices": [
+        {
+          "name": "Amina Hassan",
+          "nameSo": "Aamina Xasan",
+          "grade": "Grade 10",
+          "gradeSo": "Fasalka 10",
+          "age": 16,
+          "quote": "Ablaal Schools has given me the confidence to pursue my dreams. The teachers believe in us and push us to be our best.",
+          "quoteSo": "Dugsiyada Ablaal waxay ii siiyeen kalsoonida aan u raadsado riyadayda. Barayaasha way naga kalsoonaadaan oo naa dhiiriya inaan noqono kuwa ugu fiican.",
+          "image": "/images/student-1.jpg"
+        },
+        {
+          "name": "Mohamed Ali",
+          "nameSo": "Maxamed Cali",
+          "grade": "Grade 8",
+          "gradeSo": "Fasalka 8",
+          "age": 14,
+          "quote": "I love the science labs and the sports facilities. There's always something exciting happening at school.",
+          "quoteSo": "Waxaan jeclahay laboratoryo sayniska iyo xarumaha ciyaaraha. Had iyo jeer wax jiraan wax xiiso leh oo ka dhaca dugsiga.",
+          "image": "/images/student-2.jpg"
+        }
+      ]
+    },
+    "staff": {
+      "hero": {
+        "title": "Our Staff",
+        "titleSo": "Shaqaalaha",
+        "subtitle": "Dedicated professionals committed to educational excellence",
+        "subtitleSo": "Xirfadlayaal dhexdhexaad ah oo dhammaan u dhaqan waxsanaan waxbarasho",
+        "backgroundImage": "/images/staff-hero.jpg"
+      },
+      "title": "Our Dedicated Team",
+      "titleSo": "Kooxdeena Dhexdhexaadka ah",
+      "subtitle": "Meet the people who make Ablaal Schools special",
+      "subtitleSo": "La kulanka dadka ka dhiga Dugsiyada Ablaal gaar ah"
+    },
+    "alumni": {
+      "hero": {
+        "title": "Our Alumni",
+        "titleSo": "Ardaydii Hore",
+        "subtitle": "Proud graduates making a difference in the world",
+        "subtitleSo": "Dhammaadka faanka ee sameynaya farqadda adduunka",
+        "backgroundImage": "/images/alumni-hero.jpg"
+      },
+      "title": "Alumni Success Stories",
+      "titleSo": "Sheekooyinka Guusha Ardaydii Hore",
+      "subtitle": "Inspiring journeys of our former students",
+      "subtitleSo": "Safarro dhiirrigelin leh oo ardaydii hore ah",
+      "stories": [
+        {
+          "name": "Dr. Fatima Omar",
+          "nameSo": "Dr. Faadumo Cumar",
+          "graduationYear": 2010,
+          "currentRole": "Medical Doctor",
+          "currentRoleSo": "Dhakhtar Caafimaad",
+          "story": "My years at Ablaal Schools laid the foundation for my career in medicine. The rigorous academic program and supportive teachers prepared me for university and beyond.",
+          "storySo": "Sannadahaygii Dugsiyada Ablaal waxay dhiseen aasaaska xirfadkayga caafimaadka. Barnaamijka waxbarasho ee adag iyo barayaal taageerad ah ayaa ii diyaariyay jaamacadda iyo ka badan.",
+          "image": "/images/alumni-1.jpg"
+        },
+        {
+          "name": "Ahmed Hassan",
+          "nameSo": "Axmed Xasan",
+          "graduationYear": 2015,
+          "currentRole": "Software Engineer",
+          "currentRoleSo": "Injineer Software",
+          "story": "The computer science program at Ablaal sparked my passion for technology. Today, I work for a leading tech company and credit my success to the strong foundation I received.",
+          "storySo": "Barnaamijka sayniska kombiyuutarka ee Ablaal wuxuu shidday jacaylkayga teknoolojiyadda. Maanta, waxaan ka shaqeeyaa shirkad tech horey ugu socota oo waxaan ku ammaanaa guushayda aasaaska xooggan ee aan helo.",
+          "image": "/images/alumni-2.jpg"
+        }
+      ]
+    }
+  },
+  "staff": {
+    "hero": {
+      "title": "Our Staff",
+      "titleSo": "Shaqaalaha",
+      "subtitle": "Meet the dedicated professionals who make Ablaal Schools exceptional",
+      "subtitleSo": "La kulanka xirfadlayasha dhexdhexaadka ah ee ka dhiga Dugsiyada Ablaal gaar ah",
+      "backgroundImage": "/images/staff-hero.jpg"
+    },
+    "members": [
+      {
+        "id": "s1",
+        "name": "Mr. Hassan Mohamed",
+        "nameSo": "Mr. Xasan Maxamed",
+        "role": "Senior Mathematics Teacher",
+        "roleSo": "Macallinka Xisaabta ee Sare",
+        "branchId": "b1",
+        "yearsOfService": 18,
+        "bio": "Mr. Hassan has been teaching Mathematics at Ablaal Schools for 18 years. He is known for his innovative teaching methods and dedication to student success.",
+        "bioSo": "Mr. Xasan waxuu barayay Xisaabta Dugsiyada Ablaal 18 sano. Waa mid caan ah oo ku saabsan hababkiisa waxbarasho ee hal-abuureed iyo dhexdhexaadkiisa guusha ardayda.",
+        "image": "/images/staff-1.jpg"
+      },
+      {
+        "id": "s2",
+        "name": "Ms. Amina Ali",
+        "nameSo": "Marwo Aamina Cali",
+        "role": "English Department Head",
+        "roleSo": "Madaxa Qaybta Ingiriiska",
+        "branchId": "b2",
+        "yearsOfService": 15,
+        "bio": "Ms. Amina leads our English department with passion and expertise. She has transformed the way students learn and appreciate literature.",
+        "bioSo": "Marwo Aamina waxay hogaamisaa qaybteena Ingiriiska oo jacayl iyo xirfad leh. Waxay beddeshay sida ay ardaydu u bartaan oo ay u qiimeeyaan suugaanta.",
+        "image": "/images/staff-2.jpg"
+      },
+      {
+        "id": "s3",
+        "name": "Mr. Omar Farah",
+        "nameSo": "Mr. Cumar Faarax",
+        "role": "Science Teacher",
+        "roleSo": "Macallinka Sayniska",
+        "branchId": "b3",
+        "yearsOfService": 20,
+        "bio": "With 20 years of experience, Mr. Omar brings science to life in the classroom. His experiments and demonstrations make learning engaging and memorable.",
+        "bioSo": "20 sano oo khibrad ah, Mr. Cumar wuxuu keena nolosha sayniska qolka fasalka. Tijaabooyinkiisa iyo bandhigyadiisa waxay ka dhigaan waxbarasho xiiso leh oo la xasuusto.",
+        "image": "/images/staff-3.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+export { WaveDivider } from './WaveDivider';
+export { HeroBanner } from './HeroBanner';
+export { FloatingWhatsApp } from './FloatingWhatsApp';
+export { Header } from './Header';
+export { Footer } from './Footer';
+export { CardGrid } from './CardGrid';
+export { TestimonialCarousel } from './TestimonialCarousel';
+export { SplitSection } from './SplitSection';
+export { GalleryMasonry } from './GalleryMasonry';
+export { SectionTitle } from './SectionTitle';
+export { PinnedSection, ParallaxSection, PinnedHero } from './PinnedSection';
+export { AnimatedCounter, SlideInLeft, SlideInRight, SlideInUp, StaggerContainer, StaggerItem } from './AnimatedCounter';
