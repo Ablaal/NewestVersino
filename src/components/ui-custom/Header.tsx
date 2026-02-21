@@ -40,8 +40,8 @@ export function Header() {
     <>
       {/* Top Info Bar - Modern Design */}
       <div className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? '-translate-y-full opacity-0' : 'translate-y-0 opacity-100'}`}>
-        {/* Primary Top Bar - Dark with School Branding */}
-        <div className="bg-gradient-to-r from-primary via-primary to-primary/90 text-white">
+        {/* Primary Top Bar - Modern Teal with School Branding */}
+        <div className="bg-gradient-to-r from-[#1a5f7a] via-[#1a5f7a] to-[#0f4d63] text-white">
           <div className="container mx-auto px-4 py-3">
             <div className="flex flex-wrap items-center justify-between gap-4">
               {/* Left: Contact Info */}
@@ -50,7 +50,7 @@ export function Header() {
                   href={`tel:${content.contact.phone}`} 
                   className="flex items-center gap-2 text-sm hover:text-white/80 transition-colors group"
                 >
-                  <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-white/20 transition-colors">
+                  <div className="w-8 h-8 rounded-full bg-white/15 flex items-center justify-center group-hover:bg-white/25 transition-colors">
                     <Phone className="w-4 h-4" />
                   </div>
                   <span className="hidden sm:inline font-medium">{content.contact.phone}</span>
@@ -59,7 +59,7 @@ export function Header() {
                   href={`mailto:${content.contact.email}`} 
                   className="flex items-center gap-2 text-sm hover:text-white/80 transition-colors group"
                 >
-                  <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-white/20 transition-colors">
+                  <div className="w-8 h-8 rounded-full bg-white/15 flex items-center justify-center group-hover:bg-white/25 transition-colors">
                     <Mail className="w-4 h-4" />
                   </div>
                   <span className="hidden md:inline font-medium">{content.contact.email}</span>
@@ -183,10 +183,10 @@ export function Header() {
             <div className="hidden lg:flex items-center gap-3">
               <Link
                 to="/admissions/apply"
-                className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all ${
+                className={`px-6 py-2.5 rounded-full text-sm font-semibold transition-all ${
                   isScrolled
-                    ? 'bg-gold text-navy hover:bg-gold-light'
-                    : 'bg-gold text-navy hover:bg-gold-light'
+                    ? 'bg-[#1a5f7a] text-white hover:bg-[#0f4d63] shadow-md'
+                    : 'bg-white text-[#1a5f7a] hover:bg-white/90 shadow-md'
                 }`}
               >
                 {language === 'en' ? 'Apply Now' : 'Cods Hadda'}
@@ -248,7 +248,7 @@ export function Header() {
                   <Link
                     to="/admissions/apply"
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className="block w-full text-center py-3 bg-gold text-navy rounded-lg font-semibold"
+                    className="block w-full text-center py-3 bg-[#1a5f7a] text-white rounded-lg font-semibold hover:bg-[#0f4d63] transition-colors"
                   >
                     {language === 'en' ? 'Apply Now' : 'Cods Hadda'}
                   </Link>

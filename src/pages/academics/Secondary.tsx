@@ -130,7 +130,7 @@ export function Secondary() {
       </section>
 
       {/* Programs */}
-      <section className="py-20 md:py-32 bg-cream">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-white to-slate-50">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -139,13 +139,13 @@ export function Secondary() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               {t('Our Secondary Program', 'Barnaamijkeena Dhexe')}
             </h2>
-            <div className="w-20 h-1 bg-gold mx-auto" />
+            <div className="w-20 h-1 bg-gradient-to-r from-[#1a5f7a] to-[#2a7a9b] mx-auto" />
           </motion.div>
 
-          <div className="space-y-16">
+          <div className="space-y-8">
             {secondary.programs.map((program, index) => (
               <motion.div
                 key={program.id}
@@ -153,31 +153,32 @@ export function Secondary() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-2xl p-8 md:p-12 shadow-lg"
+                className="group bg-white rounded-2xl p-8 md:p-10 shadow-md hover:shadow-xl transition-all duration-300 border border-slate-200 overflow-hidden relative"
               >
+                <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-[#1a5f7a] to-[#0f4d63]" />
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                   <div>
                     <div className="flex items-center gap-3 mb-4">
-                      <div className="w-12 h-12 bg-gold/10 rounded-xl flex items-center justify-center">
-                        <GraduationCap className="w-6 h-6 text-gold" />
+                      <div className="w-12 h-12 bg-[#1a5f7a]/10 rounded-xl flex items-center justify-center group-hover:bg-[#1a5f7a]/20 transition-colors">
+                        <GraduationCap className="w-6 h-6 text-[#1a5f7a]" />
                       </div>
-                      <h3 className="text-2xl font-bold text-navy">
+                      <h3 className="text-2xl font-bold text-slate-900">
                         {t(program.gradeRange, program.gradeRangeSo)}
                       </h3>
                     </div>
-                    <p className="text-slate leading-relaxed mb-6">
+                    <p className="text-slate-700 leading-relaxed mb-6">
                       {t(program.description, program.descriptionSo)}
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-navy mb-4">
+                    <h4 className="font-semibold text-slate-900 mb-4">
                       {t('Core Subjects', 'Mawduucyada Aasaasiga ah')}:
                     </h4>
                     <div className="grid grid-cols-2 gap-3">
                       {program.subjects.map((subject, subIndex) => (
                         <div key={subIndex} className="flex items-center gap-2">
-                          <Check className="w-4 h-4 text-gold flex-shrink-0" />
-                          <span className="text-slate text-sm">{t(subject, program.subjectsSo[subIndex])}</span>
+                          <Check className="w-4 h-4 text-[#1a5f7a] flex-shrink-0" />
+                          <span className="text-slate-700 text-sm">{t(subject, program.subjectsSo[subIndex])}</span>
                         </div>
                       ))}
                     </div>
@@ -190,7 +191,7 @@ export function Secondary() {
       </section>
 
       {/* Features */}
-      <section className="py-20 md:py-32 bg-white">
+      <section className="py-20 md:py-32 bg-slate-50">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -225,10 +226,11 @@ export function Secondary() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="bg-cream rounded-2xl p-8 text-center border border-gray-100"
+                className="group bg-white rounded-2xl p-8 text-center border border-slate-200 hover:shadow-lg transition-all duration-300 relative overflow-hidden"
               >
-                <h3 className="text-xl font-bold text-navy mb-4">{t(feature.title, feature.titleSo)}</h3>
-                <p className="text-slate">{t(feature.description, feature.descriptionSo)}</p>
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#1a5f7a] to-[#2a7a9b]" />
+                <h3 className="text-xl font-bold text-slate-900 mb-4">{t(feature.title, feature.titleSo)}</h3>
+                <p className="text-slate-700">{t(feature.description, feature.descriptionSo)}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -236,7 +238,7 @@ export function Secondary() {
       </section>
 
       {/* Co-Curricular Activities Section */}
-      <section className="py-20 md:py-32 bg-cream">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-white to-slate-50">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -245,14 +247,14 @@ export function Secondary() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-gold/10 rounded-full mb-6">
-              <Trophy className="w-5 h-5 text-gold" />
-              <span className="text-sm font-medium text-navy">{t('Beyond the Classroom', 'Ka Baxsan Qolka Fasalka')}</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#1a5f7a]/10 rounded-full mb-6">
+              <Trophy className="w-5 h-5 text-[#1a5f7a]" />
+              <span className="text-sm font-medium text-slate-900">{t('Beyond the Classroom', 'Ka Baxsan Qolka Fasalka')}</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               {t('Co-Curricular Activities', 'Hawlaha Dheeraadka ah')}
             </h2>
-            <p className="text-lg text-slate max-w-2xl mx-auto">
+            <p className="text-lg text-slate-700 max-w-2xl mx-auto">
               {t('We believe in nurturing well-rounded individuals. Our diverse range of co-curricular activities helps students discover their passions and develop essential life skills.',
                  'Waxaan qabannaa inaan daryeelo dad dhammaystiran. Qaybaha kala duwan ee hawlaha dheeraadka ah waxay ka caawiyaan ardayda inay ogaadaan dabeecadahooda oo ay kobciyaan xirfadaha nolosha ee muhiimka ah.')}
             </p>
@@ -266,15 +268,15 @@ export function Secondary() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.05 }}
-                className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border-l-4 border-gold"
+                className="group bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 border-l-4 border-[#1a5f7a]"
               >
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-gold/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <activity.icon className="w-6 h-6 text-gold" />
+                  <div className="w-12 h-12 bg-[#1a5f7a]/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-[#1a5f7a]/20 transition-colors">
+                    <activity.icon className="w-6 h-6 text-[#1a5f7a]" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-navy mb-2">{t(activity.title, activity.titleSo)}</h3>
-                    <p className="text-sm text-slate">{t(activity.description, activity.descriptionSo)}</p>
+                    <h3 className="font-bold text-slate-900 mb-2">{t(activity.title, activity.titleSo)}</h3>
+                    <p className="text-sm text-slate-700">{t(activity.description, activity.descriptionSo)}</p>
                   </div>
                 </div>
               </motion.div>
@@ -284,8 +286,10 @@ export function Secondary() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 md:py-32 bg-navy text-white">
-        <div className="container mx-auto px-4">
+      <section className="py-20 md:py-32 bg-gradient-to-r from-[#1a5f7a] to-[#0f4d63] text-white relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -mr-32 -mt-32" />
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-white/5 rounded-full -ml-40 -mb-40" />
+        <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -298,11 +302,11 @@ export function Secondary() {
             </h2>
             <p className="text-xl text-white/90 mb-8">
               {t('Join our secondary school program and build the foundation for your academic and professional success.',
-                 'Ku biir barnaamijkeenna dugsiga dhexe oo dhisa aasaaska guushadaada waxbarasho iyo xirfadeed.')}
+                 'Ku biir barnaamijkeena dugsiga dhexe oo dhisa aasaaska guushadaada waxbarasho iyo xirfadeed.')}
             </p>
             <a
               href="/admissions/apply"
-              className="inline-flex items-center justify-center px-8 py-4 bg-gold text-navy rounded-full font-semibold hover:bg-gold-light transition-colors"
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#1a5f7a] rounded-full font-semibold hover:bg-white/90 transition-all shadow-lg"
             >
               {t('Apply Now', 'Codso Hadda')}
             </a>
