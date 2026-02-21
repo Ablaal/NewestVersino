@@ -615,13 +615,15 @@
           "descriptionSo": "Barnaamijkeenna hoose ee dugsiga hoose wuxuu ardayda ku soo bandhigaa mawduucyada waxbarasho ee aasaasiga ah inta lagu jiro kobcinta xirfadaha bulshada iyo hal-abuurka waxbarasho isweydaarsiga ah."
         },
         {
-          "id": "p2",
-          "gradeRange": "Grades 5-8",
-          "gradeRangeSo": "Fasalada 5-8",
-          "subjects": ["Somali Language", "English Language", "Mathematics", "Science", "Social Studies", "Islamic Studies", "Arts & Crafts", "Physical Education"],
-          "subjectsSo": ["Luuqadda Soomaaliga", "Luuqadda Ingiriiska", "Xisaabta", "Sayniska", "Cilmiga Bulshada", "Cilmiga Islaamka", "Farshaxanka & Hawlaha Gacanta", "Waxbarashada Jirka"],
-          "description": "Our upper primary program builds on foundational skills, introducing more complex concepts and preparing students for secondary education.",
-          "descriptionSo": "Barnaamijkeenna sare ee dugsiga hoose wuxuu ku dhisanyahay xirfadaha aasaasiga ah, wuxuuna soo bandhigaa fikrado ka adag oo u diyaarinaya ardayda waxbarashada dugsiga dhexe."
+          "id": "g11",
+          "src": "/images/primary-1.jpg",
+          "category": "primary",
+          "caption": "Primary students at assembly",
+          "captionSo": "Ardayda dugsiga hoose ee isu imaatinka"
+        },
+        {
+          "id": "g12",
+          "src": "/images/secondary-1.jpg"
         }
       ]
     },
@@ -649,23 +651,15 @@
           "subjectsSo": ["Luuqadda Soomaaliga", "Luuqadda Ingiriiska", "Xisaabta", "Fiisigis", "Kimisteri", "Bayoloji", "Juqraafi", "Taariikh", "Cilmiga Islaamka", "Sayniska Kombiyuutarka", "Cilmiga Ganacsiga", "Waxbarashada Jirka"],
           "description": "Our secondary program offers a rigorous curriculum designed to prepare students for national examinations and university entrance. We provide career guidance and support students in making informed decisions about their future.",
           "descriptionSo": "Barnaamijkeenna dugsiga dhexe wuxuu bixiyaa manhaj adag oo loogu talagalay inuu ardayda u diyaariyo imtixaannada qaran iyo gelitaanka jaamacadda. Waxaan bixinaa hagid xirfad oo ardayda taageera go'aan qaadashada macluumaadka ku saabsan mustaqbalkooda."
+        },
+        {
+          "id": "g12",
+          "src": "/images/secondary-1.jpg",
+          "category": "secondary",
+          "caption": "Secondary students in class",
+          "captionSo": "Ardayda dugsiga dhexe ee fasalka"
         }
-      ],
-      "futureSkills": {
-        "title": "Essential Job Readiness Skills",
-        "titleSo": "Xirfadaha Muhiimka ah ee Diyaarinta Shaqada",
-        "skills": [
-          { "name": "Communication Skills", "nameSo": "Xirfadaha Isgaarsiinta", "description": "Developing clear speaking and writing abilities for effective interaction" },
-          { "name": "Entrepreneurial Skills", "nameSo": "Xirfadaha Ganacsiga", "description": "Developing students' entrepreneurial mindset" },
-          { "name": "Interpersonal Skills", "nameSo": "Xirfadaha Dadka", "description": "Learning to engage with employers and customers positively" },
-          { "name": "Financial Literacy", "nameSo": "Aqoonsiga Maaliyadda", "description": "Understanding money management and budgeting principles" },
-          { "name": "Networking Skills", "nameSo": "Xirfadaha Shabakadda", "description": "Learning how to communicate and connect with potential employers" },
-          { "name": "Problem-Solving Skills", "nameSo": "Xirfadaha Xalinta Dhibaatooyinka", "description": "Analyzing situations and developing solutions to challenges" },
-          { "name": "Technical Skills", "nameSo": "Xirfadaha Farsamo", "description": "Basic IT Proficiency - learning systems and applications software" },
-          { "name": "Leadership Skills", "nameSo": "Xirfadaha Hogaanka", "description": "Empowering students to take initiative and inspire others" },
-          { "name": "Media Literacy", "nameSo": "Aqoonsiga Warbaahinta", "description": "Presentation skills, creating content, analyzing media critically" }
-        ]
-      }
+      ]
     }
   },
   "admissions": {
