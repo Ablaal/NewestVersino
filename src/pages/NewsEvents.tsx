@@ -105,77 +105,132 @@ export function NewsEvents() {
             </div>
           ) : (
             <div className="max-w-6xl mx-auto">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <motion.div 
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+              >
                 {filteredItems.map((item, index) => (
                   <motion.article
                     key={item.id}
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-slate-200 flex flex-col h-full"
+                    initial={{ opacity: 0, y: 40, scale: 0.9 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                    viewport={{ once: true, margin: "-100px" }}
+                    transition={{ duration: 0.5, delay: index * 0.08 }}
+                    whileHover={{ y: -12, boxShadow: '0 30px 50px -5px rgba(26, 95, 122, 0.2)' }}
+                    className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-slate-200 flex flex-col h-full cursor-pointer"
                   >
                     <div className="relative h-40 md:h-48 overflow-hidden bg-slate-200">
-                      <img
+                      <motion.img
                         src={item.image}
                         alt={t(item.title, item.titleSo)}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        className="w-full h-full object-cover"
+                        whileHover={{ scale: 1.12 }}
+                        transition={{ duration: 0.6 }}
                       />
-                      <div className="absolute top-3 left-3">
-                        <span className={`px-3 py-1 text-xs font-bold rounded-lg uppercase backdrop-blur-sm ${
-                          item.category === 'jobs'
-                            ? 'bg-green-500/90 text-white'
-                            : item.category === 'events'
-                            ? 'bg-blue-500/90 text-white'
-                            : item.category === 'announcements'
-                            ? 'bg-orange-500/90 text-white'
-                            : 'bg-[#1a5f7a]/90 text-white'
-                        }`}>
+                      <motion.div 
+                        className="absolute top-3 left-3"
+                        initial={{ opacity: 0, y: -10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.3 }}
+                      >
+                        <motion.span 
+                          className={`px-3 py-1 text-xs font-bold rounded-lg uppercase backdrop-blur-sm ${
+                            item.category === 'jobs'
+                              ? 'bg-green-500/90 text-white'
+                              : item.category === 'events'
+                              ? 'bg-blue-500/90 text-white'
+                              : item.category === 'announcements'
+                              ? 'bg-orange-500/90 text-white'
+                              : 'bg-[#1a5f7a]/90 text-white'
+                          }`}
+                          whileHover={{ scale: 1.05 }}
+                        >
                           {t(item.category, item.category)}
-                        </span>
-                      </div>
+                        </motion.span>
+                      </motion.div>
                       {'isJob' in item && (
-                        <div className="absolute top-3 right-3">
-                          <div className="bg-white/20 backdrop-blur-sm rounded-lg p-2">
+                        <motion.div 
+                          className="absolute top-3 right-3"
+                          initial={{ opacity: 0, scale: 0 }}
+                          whileInView={{ opacity: 1, scale: 1 }}
+                          transition={{ delay: 0.4 }}
+                        >
+                          <motion.div 
+                            className="bg-white/20 backdrop-blur-sm rounded-lg p-2"
+                            whileHover={{ scale: 1.1, backgroundColor: 'rgba(255,255,255,0.3)' }}
+                          >
                             <Briefcase className="w-5 h-5 text-white" />
-                          </div>
-                        </div>
+                          </motion.div>
+                        </motion.div>
                       )}
                     </div>
                     <div className="p-5 flex flex-col flex-grow">
-                      <div className="flex items-center gap-2 text-xs text-slate-500 mb-3 font-medium">
+                      <motion.div 
+                        className="flex items-center gap-2 text-xs text-slate-500 mb-3 font-medium"
+                        initial={{ opacity: 0, x: -10 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.2 }}
+                      >
                         <Calendar className="w-4 h-4" />
                         {item.date}
-                      </div>
-                      <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-[#1a5f7a] transition-colors line-clamp-2">
+                      </motion.div>
+                      <motion.h3 
+                        className="text-lg font-bold text-slate-900 mb-2 group-hover:text-[#1a5f7a] transition-colors line-clamp-2"
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.25 }}
+                      >
                         {t(item.title, item.titleSo)}
-                      </h3>
-                      <p className="text-slate-600 text-sm mb-4 line-clamp-2 flex-grow">
+                      </motion.h3>
+                      <motion.p 
+                        className="text-slate-600 text-sm mb-4 line-clamp-2 flex-grow"
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.3 }}
+                      >
                         {t(item.excerpt, item.excerptSo)}
-                      </p>
-                      <div className="pt-4 border-t border-slate-100">
+                      </motion.p>
+                      <motion.div 
+                        className="pt-4 border-t border-slate-100"
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.35 }}
+                      >
                         {'isJob' in item ? (
-                          <Link
-                            to="/jobs/apply"
-                            className="inline-flex items-center text-[#1a5f7a] font-semibold text-sm hover:gap-2 transition-all"
+                          <motion.div
+                            whileHover={{ x: 4 }}
+                            whileTap={{ scale: 0.98 }}
                           >
-                            {t('Apply Now', 'Codso Hadda')}
-                            <ArrowRight className="w-4 h-4 ml-1" />
-                          </Link>
+                            <Link
+                              to="/jobs/apply"
+                              className="inline-flex items-center text-[#1a5f7a] font-semibold text-sm hover:gap-2 transition-all"
+                            >
+                              {t('Apply Now', 'Codso Hadda')}
+                              <ArrowRight className="w-4 h-4 ml-1" />
+                            </Link>
+                          </motion.div>
                         ) : (
-                          <Link
-                            to={`/news-events/${item.id}`}
-                            className="inline-flex items-center text-[#1a5f7a] font-semibold text-sm hover:gap-2 transition-all"
+                          <motion.div
+                            whileHover={{ x: 4 }}
+                            whileTap={{ scale: 0.98 }}
                           >
-                            {t('Read More', 'Akhri Wax Badan')}
-                            <ArrowRight className="w-4 h-4 ml-1" />
-                          </Link>
+                            <Link
+                              to={`/news-events/${item.id}`}
+                              className="inline-flex items-center text-[#1a5f7a] font-semibold text-sm hover:gap-2 transition-all"
+                            >
+                              {t('Read More', 'Akhri Wax Badan')}
+                              <ArrowRight className="w-4 h-4 ml-1" />
+                            </Link>
+                          </motion.div>
                         )}
-                      </div>
+                      </motion.div>
                     </div>
                   </motion.article>
                 ))}
-              </div>
+              </motion.div>
             </div>
           )}
         </div>

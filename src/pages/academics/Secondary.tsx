@@ -1,12 +1,34 @@
 import { motion } from 'framer-motion';
-import { Check, GraduationCap, Trophy, Music, Palette, BookOpen, Users, Dumbbell } from 'lucide-react';
+import { Check, GraduationCap, Trophy, Music, Palette, BookOpen, Users, Dumbbell, ChevronDown } from 'lucide-react';
 import { HeroBanner } from '@/components/ui-custom';
 import { useLanguage } from '@/hooks/useLanguage';
 import content from '@/data/contentLoader';
+import { useState } from 'react';
 
 export function Secondary() {
   const { t } = useLanguage();
   const secondary = content.academics.secondary;
+  const [expandedProgram, setExpandedProgram] = useState<number | null>(null);
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+        delayChildren: 0.2,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.5, ease: 'easeOut' },
+    },
+  };
 
   const coCurricularActivities = [
     {
@@ -40,7 +62,7 @@ export function Secondary() {
     {
       icon: Users,
       title: 'Clubs & Societies',
-     titleSo: 'Naadiga & Ururada',
+      titleSo: 'Naadiga & Ururada',
       description: 'Science club, literature society, and student-led organizations for diverse interests.',
       descriptionSo: 'Naadiga sayniska, ururka suugaanta, iyo ururada hoggaamiya ardayda ee danaha kala duwan.'
     },
@@ -145,23 +167,31 @@ export function Secondary() {
             <div className="w-20 h-1 bg-gradient-to-r from-[#1a5f7a] to-[#2a7a9b] mx-auto" />
           </motion.div>
 
-          <div className="space-y-8">
+          <motion.div 
+            className="space-y-6"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
             {secondary.programs.map((program, index) => (
               <motion.div
                 key={program.id}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="group bg-white rounded-2xl p-8 md:p-10 shadow-md hover:shadow-xl transition-all duration-300 border border-slate-200 overflow-hidden relative"
+                variants={itemVariants}
+                onClick={() => setExpandedProgram(expandedProgram === index ? null : index)}
+                className="group bg-white rounded-2xl p-8 md:p-10 shadow-md hover:shadow-xl transition-all duration-300 border border-slate-200 overflow-hidden relative cursor-pointer"
               >
                 <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-[#1a5f7a] to-[#0f4d63]" />
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                  <div>
+                <div className="flex items-start justify-between">
+                  <div className="flex-1">
                     <div className="flex items-center gap-3 mb-4">
-                      <div className="w-12 h-12 bg-[#1a5f7a]/10 rounded-xl flex items-center justify-center group-hover:bg-[#1a5f7a]/20 transition-colors">
+                      <motion.div 
+                        className="w-12 h-12 bg-[#1a5f7a]/10 rounded-xl flex items-center justify-center group-hover:bg-[#1a5f7a]/20 transition-colors"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.95 }}
+                      >
                         <GraduationCap className="w-6 h-6 text-[#1a5f7a]" />
-                      </div>
+                      </motion.div>
                       <h3 className="text-2xl font-bold text-slate-900">
                         {t(program.gradeRange, program.gradeRangeSo)}
                       </h3>
@@ -170,23 +200,43 @@ export function Secondary() {
                       {t(program.description, program.descriptionSo)}
                     </p>
                   </div>
+                  <motion.div
+                    animate={{ rotate: expandedProgram === index ? 180 : 0 }}
+                    transition={{ duration: 0.3 }}
+                    className="flex-shrink-0 ml-4"
+                  >
+                    <ChevronDown className="w-6 h-6 text-[#1a5f7a]" />
+                  </motion.div>
+                </div>
+                <motion.div
+                  initial={false}
+                  animate={{ height: expandedProgram === index ? 'auto' : 0, opacity: expandedProgram === index ? 1 : 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="overflow-hidden border-t border-slate-200 pt-4 mt-4"
+                >
                   <div>
                     <h4 className="font-semibold text-slate-900 mb-4">
                       {t('Core Subjects', 'Mawduucyada Aasaasiga ah')}:
                     </h4>
                     <div className="grid grid-cols-2 gap-3">
                       {program.subjects.map((subject, subIndex) => (
-                        <div key={subIndex} className="flex items-center gap-2">
+                        <motion.div 
+                          key={subIndex} 
+                          className="flex items-center gap-2"
+                          initial={{ opacity: 0, x: -10 }}
+                          animate={{ opacity: 1, x: 0 }}
+                          transition={{ delay: subIndex * 0.05 }}
+                        >
                           <Check className="w-4 h-4 text-[#1a5f7a] flex-shrink-0" />
                           <span className="text-slate-700 text-sm">{t(subject, program.subjectsSo[subIndex])}</span>
-                        </div>
+                        </motion.div>
                       ))}
                     </div>
                   </div>
-                </div>
+                </motion.div>
               </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
 
@@ -260,20 +310,28 @@ export function Secondary() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <motion.div 
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
             {coCurricularActivities.map((activity, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: index * 0.05 }}
-                className="group bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 border-l-4 border-[#1a5f7a]"
+                variants={itemVariants}
+                whileHover={{ y: -8, boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1)' }}
+                className="group bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 border-l-4 border-[#1a5f7a] cursor-pointer"
               >
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-[#1a5f7a]/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-[#1a5f7a]/20 transition-colors">
+                  <motion.div 
+                    className="w-12 h-12 bg-[#1a5f7a]/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-[#1a5f7a]/20 transition-colors"
+                    whileHover={{ scale: 1.15, rotate: 5 }}
+                    whileTap={{ scale: 0.9 }}
+                  >
                     <activity.icon className="w-6 h-6 text-[#1a5f7a]" />
-                  </div>
+                  </motion.div>
                   <div>
                     <h3 className="font-bold text-slate-900 mb-2">{t(activity.title, activity.titleSo)}</h3>
                     <p className="text-sm text-slate-700">{t(activity.description, activity.descriptionSo)}</p>
@@ -281,7 +339,7 @@ export function Secondary() {
                 </div>
               </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
 

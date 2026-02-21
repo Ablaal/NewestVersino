@@ -38,16 +38,32 @@ export function MissionVision() {
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
                 {t(mv.whoWeAre.content, mv.whoWeAre.contentSo)}
               </p>
-              <div className="space-y-4">
+              <motion.div 
+                className="space-y-4"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ staggerChildren: 0.1, delayChildren: 0.2 }}
+              >
                 {['Founded with a mission', 'Committed to excellence', 'Community focused'].map((item, idx) => (
-                  <div key={idx} className="flex items-center gap-3">
-                    <div className="w-6 h-6 rounded-full bg-[#1a5f7a]/20 flex items-center justify-center flex-shrink-0">
+                  <motion.div 
+                    key={idx} 
+                    className="flex items-center gap-3"
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: idx * 0.1 }}
+                  >
+                    <motion.div 
+                      className="w-6 h-6 rounded-full bg-[#1a5f7a]/20 flex items-center justify-center flex-shrink-0"
+                      whileHover={{ scale: 1.2, backgroundColor: 'rgba(26, 95, 122, 0.4)' }}
+                    >
                       <svg className="w-4 h-4 text-[#1a5f7a]" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
-                    </div>
+                    </motion.div>
                     <span className="text-slate-700 font-medium">{t(item, item)}</span>
-                  </div>
+                  </motion.div>
                 ))}
-              </div>
+              </motion.div>
             </motion.div>
 
             {/* Right Image */}
@@ -85,10 +101,11 @@ export function MissionVision() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
               {/* Mission Card */}
               <motion.div
-                initial={{ opacity: 0, x: -30 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: -30, rotateY: -10 }}
+                whileInView={{ opacity: 1, x: 0, rotateY: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.1 }}
+                whileHover={{ y: -8, boxShadow: '0 30px 60px -5px rgba(26, 95, 122, 0.3)' }}
                 className="relative group rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-[#1a5f7a]/95 to-[#0f4d63]/95 z-10" />
@@ -109,10 +126,11 @@ export function MissionVision() {
 
               {/* Vision Card */}
               <motion.div
-                initial={{ opacity: 0, x: 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: 30, rotateY: 10 }}
+                whileInView={{ opacity: 1, x: 0, rotateY: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.2 }}
+                whileHover={{ y: -8, boxShadow: '0 30px 60px -5px rgba(26, 95, 122, 0.3)' }}
                 className="relative group rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-[#2a7a9b]/95 to-[#1a5f7a]/95 z-10" />
@@ -220,20 +238,30 @@ export function MissionVision() {
             </div>
 
             {/* Three Pillars Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <motion.div 
+              className="grid grid-cols-1 md:grid-cols-3 gap-8"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ staggerChildren: 0.1, delayChildren: 0.1 }}
+            >
               {/* Relevant */}
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 30, scale: 0.9 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="group rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 bg-white border border-slate-200"
+                whileHover={{ y: -8, boxShadow: '0 25px 50px -5px rgba(26, 95, 122, 0.15)' }}
+                className="group rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 bg-white border border-slate-200 cursor-pointer"
               >
                 <div className="h-1 bg-gradient-to-r from-[#1a5f7a] to-[#2a7a9b]" />
                 <div className="p-8">
-                  <div className="w-14 h-14 rounded-xl bg-[#1a5f7a]/10 flex items-center justify-center mb-6 group-hover:bg-[#1a5f7a]/20 transition-colors">
+                  <motion.div 
+                    className="w-14 h-14 rounded-xl bg-[#1a5f7a]/10 flex items-center justify-center mb-6 group-hover:bg-[#1a5f7a]/20 transition-colors"
+                    whileHover={{ scale: 1.15, rotate: 10 }}
+                  >
                     <svg className="w-7 h-7 text-[#1a5f7a]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" /></svg>
-                  </div>
+                  </motion.div>
                   <h3 className="font-bold text-2xl text-slate-900 mb-4">Relevant</h3>
                   <p className="text-slate-700 leading-relaxed mb-4">
                     We emphasize academic excellence alongside skills for modern success: critical thinking, creativity, and innovation. Our learners master technology wisely and apply knowledge to real-world challenges.
@@ -243,17 +271,21 @@ export function MissionVision() {
 
               {/* Responsible */}
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 30, scale: 0.9 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="group rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 bg-white border border-slate-200"
+                whileHover={{ y: -8, boxShadow: '0 25px 50px -5px rgba(26, 95, 122, 0.15)' }}
+                className="group rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 bg-white border border-slate-200 cursor-pointer"
               >
                 <div className="h-1 bg-gradient-to-r from-[#2a7a9b] to-[#1a5f7a]" />
                 <div className="p-8">
-                  <div className="w-14 h-14 rounded-xl bg-[#1a5f7a]/10 flex items-center justify-center mb-6 group-hover:bg-[#1a5f7a]/20 transition-colors">
+                  <motion.div 
+                    className="w-14 h-14 rounded-xl bg-[#1a5f7a]/10 flex items-center justify-center mb-6 group-hover:bg-[#1a5f7a]/20 transition-colors"
+                    whileHover={{ scale: 1.15, rotate: -10 }}
+                  >
                     <svg className="w-7 h-7 text-[#1a5f7a]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                  </div>
+                  </motion.div>
                   <h3 className="font-bold text-2xl text-slate-900 mb-4">Responsible</h3>
                   <p className="text-slate-700 leading-relaxed">
                     Character equals knowledge. We nurture integrity, empathy, and accountability. Students respect others, own their actions, and contribute positively to communities, growing into ethical leaders and global citizens.
@@ -263,24 +295,28 @@ export function MissionVision() {
 
               {/* Resilient */}
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 30, scale: 0.9 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.3 }}
-                className="group rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 bg-white border border-slate-200"
+                whileHover={{ y: -8, boxShadow: '0 25px 50px -5px rgba(26, 95, 122, 0.15)' }}
+                className="group rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 bg-white border border-slate-200 cursor-pointer"
               >
                 <div className="h-1 bg-gradient-to-r from-[#1a5f7a] to-[#0f4d63]" />
                 <div className="p-8">
-                  <div className="w-14 h-14 rounded-xl bg-[#1a5f7a]/10 flex items-center justify-center mb-6 group-hover:bg-[#1a5f7a]/20 transition-colors">
+                  <motion.div 
+                    className="w-14 h-14 rounded-xl bg-[#1a5f7a]/10 flex items-center justify-center mb-6 group-hover:bg-[#1a5f7a]/20 transition-colors"
+                    whileHover={{ scale: 1.15, rotate: 10 }}
+                  >
                     <svg className="w-7 h-7 text-[#1a5f7a]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                  </div>
+                  </motion.div>
                   <h3 className="font-bold text-2xl text-slate-900 mb-4">Resilient</h3>
                   <p className="text-slate-700 leading-relaxed">
                     Success requires perseverance. We help students face challenges with confidence and adaptability. Through growth-focused support, learners develop resilience—overcoming setbacks and continually striving toward goals.
                   </p>
                 </div>
               </motion.div>
-            </div>
+            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -303,16 +339,33 @@ export function MissionVision() {
               At Ablaal Schools, we are dedicated to nurturing well-rounded individuals who are prepared not only for examinations, but for life.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
-              {[
-                { title: 'Relevant', desc: 'In a rapidly evolving world' },
-                { title: 'Responsible', desc: 'In their actions and contributions' },
-                { title: 'Resilient', desc: 'In overcoming challenges' },
-              ].map((item, idx) => (
-                <div key={idx} className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                  <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
-                  <p className="text-white/80">{item.desc}</p>
-                </div>
-              ))}
+            {[
+              { title: 'Relevant', desc: 'In a rapidly evolving world' },
+              { title: 'Responsible', desc: 'In their actions and contributions' },
+              { title: 'Resilient', desc: 'In overcoming challenges' },
+            ].map((item, idx) => (
+              <motion.div 
+                key={idx} 
+                className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 cursor-pointer"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.1 }}
+                whileHover={{ 
+                  scale: 1.05, 
+                  backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                  boxShadow: '0 20px 40px -5px rgba(0, 0, 0, 0.3)'
+                }}
+              >
+                <motion.h3 
+                  className="text-2xl font-bold mb-2"
+                  whileHover={{ color: '#fff' }}
+                >
+                  {item.title}
+                </motion.h3>
+                <p className="text-white/80">{item.desc}</p>
+              </motion.div>
+            ))}
             </div>
             <p className="text-lg text-white/90 leading-relaxed">
               Through this commitment, we empower every learner to reach their full potential and make a lasting impact on society.
