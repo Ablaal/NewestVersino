@@ -7,16 +7,9 @@ export function MissionVision() {
   const { t } = useLanguage();
   const mv = content.about.missionVision;
 
-  const sections = [
-    { key: 'whoWeAre', icon: '1', bgImage: '/images/facility-1.jpg' },
-    { key: 'core', icon: '2', bgImage: '/images/facility-2.jpg' },
-    // Mission and Vision will be handled separately below
-    { key: 'purpose', icon: '5', bgImage: '/images/discover.jpg' },
-  ] as const;
-
   return (
     <div className="min-h-screen">
-      {/* Pinned Hero */}
+      {/* Hero */}
       <PinnedHero
         backgroundImage="/images/service-2.jpg"
         title={t('Mission & Vision', 'Ujeeddo & Aragti')}
@@ -24,8 +17,63 @@ export function MissionVision() {
         overlayOpacity={0.5}
       />
 
+      {/* Who We Are - With Image */}
+      <section className="py-20 md:py-32 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+            {/* Left Content */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+            >
+              <div className="mb-6">
+                <span className="text-[#1a5f7a] font-semibold uppercase text-sm tracking-wider">{t('About Us', 'Naga Oo Kale')}</span>
+                <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mt-2 mb-4">
+                  {t(mv.whoWeAre.title, mv.whoWeAre.titleSo)}
+                </h2>
+                <div className="w-16 h-1 bg-gradient-to-r from-[#1a5f7a] to-[#2a7a9b]" />
+              </div>
+              <p className="text-lg text-slate-700 leading-relaxed mb-6">
+                {t(mv.whoWeAre.content, mv.whoWeAre.contentSo)}
+              </p>
+              <div className="space-y-4">
+                {['Founded with a mission', 'Committed to excellence', 'Community focused'].map((item, idx) => (
+                  <div key={idx} className="flex items-center gap-3">
+                    <div className="w-6 h-6 rounded-full bg-[#1a5f7a]/20 flex items-center justify-center flex-shrink-0">
+                      <svg className="w-4 h-4 text-[#1a5f7a]" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
+                    </div>
+                    <span className="text-slate-700 font-medium">{t(item, item)}</span>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            {/* Right Image */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="relative"
+            >
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
+                <img
+                  src="/images/facility-1.jpg"
+                  alt="Who We Are"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1a5f7a]/30 to-transparent" />
+              </div>
+              <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-[#1a5f7a]/10 rounded-2xl" />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission & Vision Modern Two-Column Layout */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-white via-white to-slate-50">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-slate-50 via-white to-slate-50">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -87,45 +135,69 @@ export function MissionVision() {
         </div>
       </section>
 
-      {/* Other Content Sections - Each with Pinned Background */}
-      {sections.map((section, index) => {
-        const data = mv[section.key];
-        return (
-          <PinnedSection
-            key={section.key}
-            backgroundImage={section.bgImage}
-            overlayOpacity={0.75}
-            contentClassName="py-20 md:py-32"
-          >
-            <div className="container mx-auto px-4">
-              <motion.div
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: index * 0.1 }}
-                className="max-w-4xl mx-auto"
-              >
-                <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-white/20">
-                  <div className="flex items-start gap-6">
-                    <div className="flex-shrink-0 w-16 h-16 bg-primary rounded-2xl flex items-center justify-center shadow-lg">
-                      <span className="text-2xl font-bold text-white">{section.icon}</span>
-                    </div>
-                    <div>
-                      <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                        {t(data.title, data.titleSo)}
-                      </h2>
-                      <div className="w-16 h-1 bg-primary mb-6" />
-                      <p className="text-lg text-white/90 leading-relaxed">
-                        {t(data.content, data.contentSo)}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
+      {/* Core Values Section */}
+      <section className="py-20 md:py-32 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <span className="text-[#1a5f7a] font-semibold uppercase text-sm tracking-wider">{t('Our Foundation', 'Aasaaskeena')}</span>
+              <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mt-2 mb-4">
+                {t(mv.core.title, mv.core.titleSo)}
+              </h2>
+              <div className="w-20 h-1 bg-gradient-to-r from-[#1a5f7a] to-[#2a7a9b] mx-auto mb-6" />
+              <p className="text-lg text-slate-700 max-w-3xl mx-auto">
+                {t(mv.core.content, mv.core.contentSo)}
+              </p>
             </div>
-          </PinnedSection>
-        );
-      })}
+          </div>
+        </div>
+      </section>
+
+      {/* Purpose Section - With Image */}
+      <section className="py-20 md:py-32 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+            {/* Left Image */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="relative order-2 lg:order-1"
+            >
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
+                <img
+                  src="/images/discover.jpg"
+                  alt="Our Purpose"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1a5f7a]/30 to-transparent" />
+              </div>
+              <div className="absolute -top-8 -left-8 w-32 h-32 bg-[#1a5f7a]/10 rounded-2xl" />
+            </motion.div>
+
+            {/* Right Content */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="order-1 lg:order-2"
+            >
+              <div className="mb-6">
+                <span className="text-[#1a5f7a] font-semibold uppercase text-sm tracking-wider">{t('Our Direction', 'Istiqaamadeena')}</span>
+                <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mt-2 mb-4">
+                  {t(mv.purpose.title, mv.purpose.titleSo)}
+                </h2>
+                <div className="w-16 h-1 bg-gradient-to-r from-[#1a5f7a] to-[#2a7a9b]" />
+              </div>
+              <p className="text-lg text-slate-700 leading-relaxed">
+                {t(mv.purpose.content, mv.purpose.contentSo)}
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
 
       {/* Our Philosophy Section - Redesigned */}
       <section className="py-20 md:py-32 bg-slate-50">
@@ -214,38 +286,40 @@ export function MissionVision() {
       </section>
 
       {/* Our Brand Promise Section */}
-      <PinnedSection
-        backgroundImage="/images/cta-bg.jpg"
-        overlayOpacity={0.7}
-        contentClassName="py-20 md:py-32"
-      >
-        <div className="container mx-auto px-4">
+      <section className="py-20 md:py-32 bg-gradient-to-r from-[#1a5f7a] to-[#0f4d63] text-white relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -mr-48 -mt-48" />
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-white/5 rounded-full -ml-40 -mb-40" />
+        <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl mx-auto"
+            className="max-w-4xl mx-auto text-center"
           >
-            <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-white/20">
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">Our Brand Promise</h2>
-              <div className="w-16 h-1 bg-primary mb-6" />
-              <p className="text-lg text-white/90 leading-relaxed mb-6">
-                At Ablaal Schools, we are dedicated to nurturing well-rounded individuals who are prepared not only for examinations, but for life.<br /><br />
-                We aim to develop students who are:
-              </p>
-              <ul className="list-disc pl-6 text-white/90 mb-6">
-                <li>Relevant in a rapidly evolving world</li>
-                <li>Responsible in their actions and contributions</li>
-                <li>Resilient in overcoming challenges and achieving success</li>
-              </ul>
-              <p className="text-lg text-white/90 leading-relaxed">
-                Through this commitment, we empower every learner to reach their full potential and make a lasting impact on society.
-              </p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Our Brand Promise</h2>
+            <div className="w-20 h-1 bg-white/40 mx-auto mb-8" />
+            <p className="text-xl text-white/90 leading-relaxed mb-8">
+              At Ablaal Schools, we are dedicated to nurturing well-rounded individuals who are prepared not only for examinations, but for life.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
+              {[
+                { title: 'Relevant', desc: 'In a rapidly evolving world' },
+                { title: 'Responsible', desc: 'In their actions and contributions' },
+                { title: 'Resilient', desc: 'In overcoming challenges' },
+              ].map((item, idx) => (
+                <div key={idx} className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                  <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
+                  <p className="text-white/80">{item.desc}</p>
+                </div>
+              ))}
             </div>
+            <p className="text-lg text-white/90 leading-relaxed">
+              Through this commitment, we empower every learner to reach their full potential and make a lasting impact on society.
+            </p>
           </motion.div>
         </div>
-      </PinnedSection>
+      </section>
 
       {/* Values Preview - Pinned Background */}
       <PinnedSection
