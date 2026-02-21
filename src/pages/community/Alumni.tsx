@@ -149,7 +149,7 @@ export function Alumni() {
               whileHover={{ scale: 1.05, boxShadow: '0 20px 40px -10px rgba(0,0,0,0.1)' }}
             >
               {t('Get in Touch', 'Nala Soo Xiriir')}
-            </a>
+            </motion.a>
           </motion.div>
         </div>
       </section>
